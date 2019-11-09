@@ -1,0 +1,224 @@
+title: Conversation1
+tags: 
+---
+Hey, you got a nice thrust fire!
+[[You think it's appropriate thing to say?|Conversation21]]
+[[I guess I just love burning fuel|Conversation22]]
+
+===
+
+title: Conversation21
+tags: 
+---
+I'm just glad I met you, flying looks like a lonely job.
+
+wait(2)
+
+[[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
+[[Insist on etiquette$Still no reason to go around talking like that.|Conversation34]]
+
+===
+
+title: Conversation22
+tags: 
+---
+
+Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
+[[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
+[[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
+
+===
+
+title: Conversation31
+tags:
+---
+Your confidence is remarkable. I still wonder where are we headed...
+
+[[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
+[[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
+
+===
+
+
+
+title: Conversation32
+tags: 
+---
+
+There's nothing wrong about being a shy rocket. Shyness is actually quite attactive.
+
+[[Chuckles|Conversation43]]
+[[Chuckles, but ironically|Conversation44]]
+
+===
+
+title: Conversation33
+tags: 
+---
+
+Yes! I heard rumors, it should be in our flight plan. 
+I sometimes feel alone in this world. Could help.
+
+wait(4)
+[[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about whats inside our payload.|Conversation45]]
+[[I suppose you have a theory about existence of god too...$I imagine you have something to say about God as well. Everybody does.|Conversation46]]
+
+===
+
+title: Conversation34
+tags: 
+---
+wait(3)
+Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
+(2)
+
+[[I hope there're no unasked for compliments.|Conversation47]]
+[[Okay, fine$Okay, fin--|Conversation471]]
+
+
+===
+
+title: Conversation41
+tags: 
+---
+Riiighht. Does that work for you, though?
+wait(2)
+
+[[Ahem...$Riiiighhhttt...Wait!|Conversation441]]
+
+===
+
+title: Conversation42
+tags: 
+---
+
+Same. We're alike. You and I. Nice polish by the way.
+
+[[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
+
+===
+
+title: Conversation43
+tags: 
+---
+wait(5)
+[[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
+===
+
+title: Conversation44
+tags: 
+---
+wait(5)
+
+Is... everything okay? Just a joke, you know. 
+wait(2)
+[[Riiighhhtt.|Conversation441]]
+
+===
+
+title: Conversation45
+tags: 
+---
+
+Sometimes I imagine it's full of plush toys, for children.
+
+wait(2)
+$...
+wait(2)
+[[I'd like that. But I worry it's not true.|Space1]]
+
+===
+
+title: Conversation46
+tags: 
+---
+Hey, I'm not that per-
+
+[[Wait, look!|Space1]]
+	
+===
+
+title: Conversation47
+tags: 
+---
+
+I'm sorry, alright! I just found your... polish intriguing, that's all.
+
+wait(3)
+
+Didn't mean to offend.
+
+[[Okay then, fine$Okay, fin--|Conversation471]]
+[[Don't tak it personally, its just too much$Ah, it's just too much, lately I've--|Conversation472]]
+
+===
+
+title: Conversation431
+tags: 
+---
+
+...
+Thank...you--look!
+wait(2)
+$whoa!
+(2)
+
+[[...space!|space1]]
+
+===
+
+title: Conversation441
+tags: 
+---
+
+Whoa!
+
+[[...space!|space2]]
+===
+
+title: Conversation471
+tags: 
+---
+
+Wait! Look!
+
+[[...space!|space2]]
+
+[[space2]]
+
+===
+
+title: Conversation472
+tags: 
+---
+Wait! I'm sorry.
+But look around!
+
+... (space)
+
+[[...space!|space1]]
+
+
+===
+
+title: space1
+tags: 
+---
+wait(4)
+$Are...those...stars?!
+Seems like.
+
+Humans direct  their wishes towards them...
+$I feel like... made out of weightless steel...
+
+===
+
+title: space2
+tags: 
+---
+wait(4)
+$Are...those...stars?!
+Seems like. Finally.
+But they're too far away. And cold...
+$The light is faded...
+===
