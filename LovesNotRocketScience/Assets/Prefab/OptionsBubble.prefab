@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3718534300388766036}
   - component: {fileID: 3718534300388766037}
   - component: {fileID: 3718534300388766038}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3718534300727684789}
   - component: {fileID: 3718534300727684776}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: OptionsBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3718534301004969832}
   - component: {fileID: 3718534301004969831}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: white
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 5204746925021055689}
   - component: {fileID: 5204746925021055688}
   - component: {fileID: 5204746925021055703}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5204746926325555617}
   - component: {fileID: 5204746926325555618}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sipka2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5204746926458643642}
   - component: {fileID: 5204746926458643643}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sipka1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
