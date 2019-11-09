@@ -17,12 +17,23 @@ public class RocketDialogOptions : MonoBehaviour
     public string SelectedText { get; private set; }
 
     private IList<string> _savedOptions;
+
+    private bool IsOneAnswer;
+    
     public void SetOptions(IList<string> options)
     {
-        if (options.Count < 2) return;
+        if (options.Count < 2)
+        {
+            IsOneAnswer = true;
+            
+            Text1.text = GetOptionText(options[0]);
+            Text2.gameObject.SetActive(false);
+            Arrow1.SetActive(true);
+            Arrow2.SetActive(false);
+            return;
+        }
 
         _savedOptions = options;
-        
         
         Text1.text = GetOptionText(options[0]);
         Text2.text = GetOptionText(options[1]);
@@ -72,6 +83,8 @@ public class RocketDialogOptions : MonoBehaviour
             }          
         }
 
+        if (IsOneAnswer) return;
+        
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             if (Arrow1.activeSelf)

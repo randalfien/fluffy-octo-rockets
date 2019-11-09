@@ -18,7 +18,7 @@ public class RocketSky : MonoBehaviour
        transform.DOMoveY(_yStart - currentDelta, 5).SetEase(Ease.InOutCubic);
 
         float pos = currentDelta / Mathf.Abs(_yStart * 2);
-        GameObject.Find("Rocket").GetComponentInChildren<RocketColor>().TweenToPos(pos);
+        GameObject.Find("Rocket1").GetComponentInChildren<RocketColor>().TweenToPos(pos);
         GameObject.Find("Rocket2").GetComponentInChildren<RocketColor>().TweenToPos(pos);
     }
 }
