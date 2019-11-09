@@ -6,6 +6,7 @@ using Yarn.Unity;
 public class RocketDialogUI : DialogueUIBehaviour
 {
     public GameObject BubblePrefab;
+    public GameObject OptionsPrefab;
     
     public override IEnumerator RunLine(Line line)
     {
@@ -23,8 +24,13 @@ public class RocketDialogUI : DialogueUIBehaviour
         {
             print(a);
         }
-
-        yield break;
+        
+        var optionsp = Instantiate(OptionsPrefab);
+        var optionsScript = optionsp.GetComponent<RocketDialogOptions>();
+        optionsScript.SetOptions(optionsCollection.options);
+        yield return optionsScript.WaitForInput(optionChooser);
+        
+        Destroy(optionsp);
     }
 
     public override IEnumerator RunCommand(Command command)
