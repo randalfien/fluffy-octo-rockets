@@ -1,0 +1,13 @@
+
+knir.png
+size: 79,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+letajici_knir
+  rotate: false
+  xy: 2, 2
+  size: 75, 9
+  orig: 75, 9
+  offset: 0, 0
+  index: -1
