@@ -14,7 +14,8 @@ public class RocketDialogOptions : MonoBehaviour
     private OptionChooser _optionsCallback;
 
     private bool _optionsConfirmed = false;
-    
+    public string SelectedText { get; private set; }
+
     public void SetOptions(IList<string> options)
     {
         if (options.Count < 2) return;
@@ -42,11 +43,13 @@ public class RocketDialogOptions : MonoBehaviour
             if (Arrow1.activeSelf)
             {
                 _optionsCallback(0);
+                SelectedText = Text1.text;
                 Text2.gameObject.SetActive(false);
             }
             else
             {
                 _optionsCallback(1);
+                SelectedText = Text2.text;
                 Text1.gameObject.SetActive(false);
             }          
         }
