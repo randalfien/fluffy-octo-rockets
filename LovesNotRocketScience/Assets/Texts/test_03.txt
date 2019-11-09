@@ -1,0 +1,44 @@
+title: Conversation1
+tags: 
+colorID: 6
+position: 375,136
+---
+A: Hey, you got a nice thrust fire!
+-> You think that's appropriate to say?
+    [[A:I'm just glad, flying's usually a lonely job.|Converation 21]]
+-> I guess I love burning fossil fuels! 
+    [[A: Toast to the dinosaurs!.|Converation 22]]
+===
+title: Converation 21
+tags: 
+colorID: 0
+position: 309,410
+---
+A: Test 21
+===
+title: Converation 22
+tags: 
+colorID: 0
+position: 755,140
+---
+A: Ah, the scent of fresh air. No surprise exercise improves depression.
+A: But I hate smalltalk, our lives all to short - so what's your calling?
+-> (Boast)
+    [[I wanna see the world. I want people to stop in awe when they see me in the sky!|Converation 31]]
+-> (Be modest)
+    [[Ugh, I'm not sur... I try to get by with what I have...you?|Converation 32]]
+===
+title: Converation 31
+tags: 
+colorID: 0
+position: 1009,104
+---
+A: Test 31
+===
+title: Converation 32
+tags: 
+colorID: 0
+position: 1016,350
+---
+A: Test 32
+===
