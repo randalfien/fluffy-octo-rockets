@@ -1,0 +1,20 @@
+
+meteor1.png
+size: 1764,902
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meteor1
+  rotate: true
+  xy: 2, 2
+  size: 456, 493
+  orig: 456, 493
+  offset: 0, 0
+  index: -1
+stopa
+  rotate: false
+  xy: 2, 460
+  size: 1760, 440
+  orig: 1902, 441
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,33 @@
+
+druzica.png
+size: 1248,1521
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0001_tělo
+  rotate: false
+  xy: 2, 2
+  size: 1244, 1517
+  orig: 1244, 1517
+  offset: 0, 0
+  index: -1
+
+druzica2.png
+size: 1944,1720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000_lopatka-přednií
+  rotate: false
+  xy: 2, 853
+  size: 1940, 865
+  orig: 1940, 865
+  offset: 0, 0
+  index: -1
+_0002_lopatka-zadní
+  rotate: false
+  xy: 2, 2
+  size: 1929, 849
+  orig: 1929, 849
+  offset: 0, 0
+  index: -1
