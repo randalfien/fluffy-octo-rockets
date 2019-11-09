@@ -164,7 +164,7 @@ wait(2)
 $whoa!
 (2)
 
-[[...space!|space1]]
+[[...space!|Space1]]
 
 ===
 
@@ -174,7 +174,7 @@ tags:
 
 Whoa!
 
-[[...space!|space2]]
+[[...space!|Space2]]
 ===
 
 title: Conversation471
@@ -183,9 +183,9 @@ tags:
 
 Wait! Look!
 
-[[...space!|space2]]
+[[...space!|Space2]]
 
-[[space2]]
+[[Space2]]
 
 ===
 
@@ -197,12 +197,12 @@ But look around!
 
 ... (space)
 
-[[...space!|space1]]
+[[...space!|Space1]]
 
 
 ===
 
-title: space1
+title: Space1
 tags: 
 ---
 wait(4)
@@ -214,7 +214,7 @@ Seems like.
 
 ===
 
-title: space2
+title: Space2
 tags: 
 ---
 wait(4)
