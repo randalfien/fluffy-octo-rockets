@@ -1,17 +1,19 @@
 title: Conversation1
 tags: 
 ---
+wait(4)
+<<move Sky 5>>
 Hey, you got a nice thrust fire!
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
-
 ===
 
 title: Conversation21
 tags: 
 ---
+<<move Sky 7>>
 I'm just glad I met you, flying looks like a lonely job.
-
+<<move Sky 10>>
 wait(2)
 
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
@@ -22,8 +24,9 @@ wait(2)
 title: Conversation22
 tags: 
 ---
-
+<<move Sky 7>>
 Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
+<<move Sky 10>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
 [[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
 
@@ -32,7 +35,9 @@ Ah, the scent of fresh air. No surprise exercise improves depression. But I hate
 title: Conversation31
 tags:
 ---
+<<<move Sky 13>>
 Your confidence is remarkable. I still wonder where are we headed...
+<<<move Sky 15>>
 
 [[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
 [[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
@@ -44,9 +49,9 @@ Your confidence is remarkable. I still wonder where are we headed...
 title: Conversation32
 tags: 
 ---
-
+<<ove Sky 13>>
 There's nothing wrong about being a shy rocket. Shyness is actually quite attactive.
-
+<<move Sky 15>>
 [[Chuckles|Conversation43]]
 [[Chuckles, but ironically|Conversation44]]
 
@@ -55,10 +60,10 @@ There's nothing wrong about being a shy rocket. Shyness is actually quite attact
 title: Conversation33
 tags: 
 ---
-
+<<move Sky 13>>
 Yes! I heard rumors, it should be in our flight plan. 
 I sometimes feel alone in this world. Could help.
-
+<<move Sky 15>>
 wait(4)
 [[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about whats inside our payload.|Conversation45]]
 [[I suppose you have a theory about existence of god too...$I imagine you have something to say about God as well. Everybody does.|Conversation46]]
@@ -68,10 +73,11 @@ wait(4)
 title: Conversation34
 tags: 
 ---
+<<move Sky 13>>
 wait(3)
 Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
-(2)
-
+wait(2)
+<move Sky 15>>
 [[I hope there're no unasked for compliments.|Conversation47]]
 [[Okay, fine$Okay, fin--|Conversation471]]
 
@@ -81,6 +87,7 @@ Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright h
 title: Conversation41
 tags: 
 ---
+<<move Sky 20>>
 Riiighht. Does that work for you, though?
 wait(2)
 
@@ -91,9 +98,10 @@ wait(2)
 title: Conversation42
 tags: 
 ---
+<<move Sky 20>>
 
 Same. We're alike. You and I. Nice polish by the way.
-
+<<move Sky 25>>
 [[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 
 ===
@@ -101,15 +109,18 @@ Same. We're alike. You and I. Nice polish by the way.
 title: Conversation43
 tags: 
 ---
+<<move Sky 20>>
 wait(5)
+<<move Sky 25>>
 [[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 ===
 
 title: Conversation44
 tags: 
 ---
+<<move Sky 20>>
 wait(5)
-
+<<move Sky 25>>
 Is... everything okay? Just a joke, you know. 
 wait(2)
 [[Riiighhhtt.|Conversation441]]
@@ -119,12 +130,13 @@ wait(2)
 title: Conversation45
 tags: 
 ---
-
+<<move Sky 20>>
 Sometimes I imagine it's full of plush toys, for children.
 
 wait(2)
 $...
-wait(2)
+<<move Sky 25>>
+wait(1)
 [[I'd like that. But I worry it's not true.|Space1]]
 [[Maybe one day...|Space1]]
 
@@ -133,8 +145,9 @@ wait(2)
 title: Conversation46
 tags: 
 ---
+<<move Sky 20>>
 Hey, I'm not that per-
-
+<<move Sky 27>>
 [[Wait, look!|Space1]]
 	
 ===
@@ -142,11 +155,11 @@ Hey, I'm not that per-
 title: Conversation47
 tags: 
 ---
-
+<<move Sky 20>>
 I'm sorry, alright! I just found your... polish intriguing, that's all.
 
 wait(3)
-
+<<move Sky 25>>
 Didn't mean to offend.
 
 [[Okay then, fine$Okay, fin--|Conversation471]]
@@ -157,7 +170,7 @@ Didn't mean to offend.
 title: Conversation431
 tags: 
 ---
-
+<<move Sky 27>>
 ...
 Thank...you--look!
 wait(2)
@@ -171,7 +184,7 @@ $whoa!
 title: Conversation441
 tags: 
 ---
-
+<<move Sky 27>>
 Whoa!
 
 [[...space!|Space2]]
@@ -180,7 +193,7 @@ Whoa!
 title: Conversation471
 tags: 
 ---
-
+<<move Sky 27>>
 Wait! Look!
 
 [[...space!|Space2]]
@@ -192,6 +205,7 @@ Wait! Look!
 title: Conversation472
 tags: 
 ---
+<<move Sky 27>>
 Wait! I'm sorry.
 But look around!
 
@@ -205,6 +219,7 @@ But look around!
 title: Space1
 tags: 
 ---
+<<move Sky 33>>
 wait(4)
 $Are...those...stars?!
 Seems like.
@@ -217,6 +232,7 @@ Seems like.
 title: Space2
 tags: 
 ---
+<<move Sky 33>>
 wait(4)
 $Are...those...stars?!
 Seems like. Finally.
@@ -229,6 +245,8 @@ Seems like. Finally.
 title: ConversationS11
 tags: 
 ---
+<<move Sky 37>>
+
 And they think they will then come true?
 
 $Weird, right?
@@ -243,6 +261,7 @@ Yeah...is there anything you wish?
 title: ConversationS12
 tags: 
 ---
+<<move Sky 37>>
 Me too. Not only cause of space grandeur, though...
 
 $What do you mean?
@@ -261,7 +280,7 @@ wait(2)
 title: ConversationS21
 tags: 
 ---
-
+<<move Sky 37>>
 You talk like you're about to die soon. Regretful.
 
 [[I'm just realistic.|ConversationS223]]
@@ -272,6 +291,7 @@ You talk like you're about to die soon. Regretful.
 title: ConversationS22
 tags: 
 ---
+<<move Sky 37>>
 Beauty isn't free. Sometimes you have to suffer first.
 
 [[Not me!$No, not me. Enough with struggle.|ConversationS221]]
@@ -282,6 +302,7 @@ Beauty isn't free. Sometimes you have to suffer first.
 title: ConversationS120
 tags: 
 ---
+<<move Sky 42>>
 [[Keep things just the way they are.|ConversationS122]]
 [[Our traces hidden by the rings of Uranus.|ConversationS122]]
 
@@ -290,6 +311,7 @@ tags:
 title: ConversationS121
 tags: 
 ---
+<<move Sky 42>>
 Me as well. 
 wait(2)
 With you.
@@ -302,6 +324,7 @@ wait(2)
 title: ConversationS221
 tags: 
 ---
+<<move Sky 42>>
 wait(2)
 
 We might play a game, at least. You in?
@@ -313,6 +336,7 @@ We might play a game, at least. You in?
 title: ConversationS222
 tags: 
 ---
+<<move Sky 42>>
 Not really. 
 My factory was doing unregulated testing. 
 When I think about my parts, 
@@ -327,6 +351,7 @@ when building me.
 title: ConversationS223
 tags: 
 ---
+<<move Sky 42>>
 We might play a game, at least. You in?
 
 [[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
@@ -336,6 +361,7 @@ We might play a game, at least. You in?
 title: ConversationS123
 tags: 
 ---
+<<move Sky 42>>
 wait(2)
 That's alright.
 (1)
@@ -351,6 +377,7 @@ Forget it. Wanna play a game?
 title: ConversationS2221
 tags: 
 ---
+<<move Sky 47>>
 Ugh, what did I expect from you.
 
 $To pity you?
@@ -368,6 +395,7 @@ Would you at least play a game with me?
 title: ConversationS122
 tags: 
 ---
+<<move Sky 42>>
 $If I could, I would stay here...
 Just the way things are.
 wait(3)
@@ -381,6 +409,8 @@ Yes.
 title: ConversationS1game0
 tags: 
 ---
+<<move Sky 50>>
+
 Okay, Word Chain it is! 
 You go first.
 
@@ -406,6 +436,8 @@ Yeah. You lost.
 title: ConversationS2game0
 tags: 
 ---
+<<move Sky 50>>
+
 Okay, it is Word Chain. 
 I'll go first..
 
@@ -432,6 +464,8 @@ I don't know.
 title: ConversationS2pg0
 tags: 
 ---
+<<move Sky 53>>
+
 Thanks. So in that case...
 Iridescence.
 $That's a nice word!
@@ -447,6 +481,8 @@ Truce
 title: ConversationS2pg
 tags: 
 ---
+<<move Sky 53>>
+
 Right. 
 You got me. 
 Whatever.
@@ -458,6 +494,8 @@ Whatever.
 title: ConversationS1pg
 tags: 
 ---
+<<move Sky 58>>
+
 $Ah, you got me.
 wait(2)
 You've been a good opponent.
@@ -483,6 +521,7 @@ title: StratosphereL01
 tags: 
 
 ---
+<<move Sky 60>>
 Shields up!
 wait(1)
 $I was glad to share this journey with you.
@@ -498,6 +537,7 @@ For us?
 title: StratosphereL02
 tags: 
 ---
+<<move Sky 60>>
 The weird sense of seeing too much.
 $Exactly.
 Emeraldish green, 
@@ -516,6 +556,7 @@ Any last wishes?
 title: stratosphereS11
 tags: 
 ---
+<<move Sky 60>>
 $The Vibrations!
 Dampeners on full power!
 ...
@@ -535,6 +576,7 @@ $But... how?
 title: StratosphereS11b
 tags: 
 ---
+<<move Sky 60>>
 $The Vibrations!
 Dampeners on full power!
 ...
@@ -551,6 +593,7 @@ Let's do this!
 title: StratosphereS21
 tags: 
 ---
+<<move Sky 60>>
 Vibrations!
 $Heat!
 By the way, zero thanks for sharing the journey.
@@ -568,6 +611,8 @@ Of course you are.
 title: ImpactEnd
 tags: 
 ---
+
+<<move Sky 66>>
 END
 ===
 
@@ -575,7 +620,7 @@ END
 title: ImpactEnd2
 tags: 
 ---
-
+<<move Sky 66>>
 Wow, you really stayed. 
 Spending your last moments with me?
 $Oh, irony.$
@@ -592,6 +637,7 @@ END
 title: ExplodeBeforeEnd1
 tags: 
 ---
+<<move Sky 66>>
 $In this sky, 
 $I learnt about a feeling I didn't know I could feel
 As fleeting as it was, staying on course feels wrong.
@@ -619,6 +665,7 @@ END
 title: ExplodeBeforeEnd2
 tags: 
 ---
+<<move Sky 66>>
 As fleeting as it was, staying on course feels wrong.
 $Exactly.
 wait(1)
@@ -643,7 +690,7 @@ END
 title: ImpactApartEnd
 tags: 
 ---
-
+<<move Sky 66>>
 What???
 $You heard me.
 You cannot be serious.
