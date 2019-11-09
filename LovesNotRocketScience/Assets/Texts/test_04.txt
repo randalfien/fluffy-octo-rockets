@@ -6,6 +6,7 @@ position: 592,181
 Ugh, what did I expect from you.
 
 $To pity you?
+<<move Sky nekam>>
 wait(5)
 No, but at least a little empathy.
 I got no time for that. Look on your rad-
