@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using Yarn;
 using Yarn.Unity;
 
 public class RocketDialogUI : DialogueUIBehaviour
 {
+    public static Color TextColor = Color.white;
+    
     public GameObject BubblePrefab;
     public GameObject OptionsPrefab;
     public Transform Point1;
@@ -33,10 +36,12 @@ public class RocketDialogUI : DialogueUIBehaviour
         foreach (var a in R1Bubbles)
         {
             a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+            a.GetComponentInChildren<TextMeshPro>().DOFade(0, 2).SetDelay(1);
         }
         foreach (var a in R2Bubbles)
         {
             a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+            a.GetComponentInChildren<TextMeshPro>().DOFade(0, 2).SetDelay(1);
         }
         if (R1Bubbles.Count > 0)
         {
@@ -44,6 +49,7 @@ public class RocketDialogUI : DialogueUIBehaviour
         }
 
         var bubble = Instantiate(BubblePrefab);
+        bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
         if (line.text[0] == '$')
         {
             bubble.GetComponent<DialogBubble>().Text = line.text.Substring(1);
@@ -87,6 +93,7 @@ public class RocketDialogUI : DialogueUIBehaviour
         foreach (var a in R2Bubbles)
         {
             a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+            a.GetComponentInChildren<TextMeshPro>().DOFade(0, 2).SetDelay(1);
         }
 
         if (R2Bubbles.Count > 0)
@@ -95,6 +102,7 @@ public class RocketDialogUI : DialogueUIBehaviour
         }
         
         var bubble = Instantiate(BubblePrefab);
+        bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
         bubble.GetComponent<DialogBubble>().Text = optionsScript.SelectedText;
         bubble.transform.position = Point2.position;
         
