@@ -4846,19 +4846,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Gradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
+    key0: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    key1: {r: 0.26656497, g: 0.26656497, b: 0.26656497, a: 1}
+    key2: {r: 1, g: 0, b: 0, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
+    ctime1: 7710
+    ctime2: 20046
+    ctime3: 21588
+    ctime4: 65535
     ctime5: 0
     ctime6: 0
     ctime7: 0
@@ -4871,7 +4871,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 2
+    m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   Clr: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4462871873081114400
@@ -28652,6 +28652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4066119508147907686}
+  - component: {fileID: 4414111421158779677}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -28674,6 +28675,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4414111421158779677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791740250289692894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b6347029779ef49ad30fef02aa863a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5514001806136908423
 GameObject:
   m_ObjectHideFlags: 0
@@ -28684,7 +28697,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6863694333494936742}
   - component: {fileID: 5329917055845226774}
-  - component: {fileID: 5329917056287166129}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -28699,8 +28711,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5514001806136908423}
-  m_LocalRotation: {x: -0, y: -0, z: 0.36877373, w: 0.9295193}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.64, y: 1.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4462871873962269807}
@@ -28708,7 +28720,7 @@ Transform:
   - {fileID: 4462871872278238921}
   m_Father: {fileID: 4066119508147907686}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 43.280003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5329917055845226774
 Animator:
   serializedVersion: 3
@@ -28728,15 +28740,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5329917056287166129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5514001806136908423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b6347029779ef49ad30fef02aa863a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
