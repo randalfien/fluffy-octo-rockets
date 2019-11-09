@@ -6,13 +6,13 @@ position: 592,181
 Ugh, what did I expect from you.
 
 $To pity you?
-<<move Sky nekam>>
+<<move Sky 6>>
 wait(5)
 No, but at least a little empathy.
 I got no time for that. Look on your rad-
 Would you at least play a game with me?
-[[Well, Okay.|ConversationS2game0]]
-[[Ugh, I guess.|ConversationS2game0]]
+[[be modest$I am sorry|ConversationS2game0]]
+[[Ugh, I guess.$I am sorry|ConversationS2game0]]
 ===
 
 title: ConversationS2game0

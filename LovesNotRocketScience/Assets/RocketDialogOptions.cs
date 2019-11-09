@@ -16,14 +16,32 @@ public class RocketDialogOptions : MonoBehaviour
     private bool _optionsConfirmed = false;
     public string SelectedText { get; private set; }
 
+    private IList<string> _savedOptions;
     public void SetOptions(IList<string> options)
     {
         if (options.Count < 2) return;
 
-        Text1.text = options[0];
-        Text2.text = options[1];
+        _savedOptions = options;
+        
+        
+        Text1.text = GetOptionText(options[0]);
+        Text2.text = GetOptionText(options[1]);
         Arrow1.SetActive(true);
         Arrow2.SetActive(false);
+    }
+
+    private string GetOptionText(string s)
+    {
+        if (s.Contains("$") == false) return s;
+
+        return s.Split('$')[0];
+    }
+    
+    private string GetReplyText(string s)
+    {
+        if (s.Contains("$") == false) return s;
+
+        return s.Split('$')[1];
     }
 
     public IEnumerator WaitForInput(OptionChooser optionChooser)
@@ -43,13 +61,13 @@ public class RocketDialogOptions : MonoBehaviour
             if (Arrow1.activeSelf)
             {
                 _optionsCallback(0);
-                SelectedText = Text1.text;
+                SelectedText = GetReplyText(_savedOptions[0]);
                 Text2.gameObject.SetActive(false);
             }
             else
             {
                 _optionsCallback(1);
-                SelectedText = Text2.text;
+                SelectedText = GetReplyText(_savedOptions[1]);
                 Text1.gameObject.SetActive(false);
             }          
         }

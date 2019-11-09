@@ -71,6 +71,8 @@ public class RocketDialogUI : DialogueUIBehaviour
         {
             print(a);
         }
+        
+        
 
         var optionsp = Instantiate(OptionsPrefab);
         optionsp.transform.position = OptionsPoint.position;
@@ -125,5 +127,12 @@ public class RocketDialogUI : DialogueUIBehaviour
     public override IEnumerator DialogueStarted () {
         print("start");
         yield break;
+    }
+
+
+    [YarnCommand("color")]
+    public void ColorRocket(string option)
+    {
+        
     }
 }
