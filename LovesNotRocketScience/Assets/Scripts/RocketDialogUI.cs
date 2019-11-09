@@ -23,7 +23,13 @@ public class RocketDialogUI : DialogueUIBehaviour
     public override IEnumerator RunLine(Line line)
     {
         print(line.text);
-
+        if (line.text.StartsWith("wait("))
+        {
+            print(int.Parse(line.text.Substring(5,1)));
+            yield return new WaitForSeconds(int.Parse(line.text.Substring(5,1)));
+            yield break;
+        }
+        
         foreach (var a in R1Bubbles)
         {
             a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
@@ -38,13 +44,24 @@ public class RocketDialogUI : DialogueUIBehaviour
         }
 
         var bubble = Instantiate(BubblePrefab);
-        bubble.GetComponent<DialogBubble>().Text = line.text;
-        bubble.transform.position = Point1.position;
+        if (line.text[0] == '$')
+        {
+            bubble.GetComponent<DialogBubble>().Text = line.text.Substring(1);
+            bubble.transform.position = Point2.position;
+            R2Bubbles.Add(bubble);
+        }
+        else
+        {
+            bubble.GetComponent<DialogBubble>().Text = line.text;
+            bubble.transform.position = Point1.position;
+            R1Bubbles.Add(bubble);
+        }
+
         GameObjectCamera.gameObject.SetActive(false);
         yield return new WaitForSeconds(line.text.Length*0.06f);
         GameObjectCamera.gameObject.SetActive(true);
         
-        R1Bubbles.Add(bubble);
+        
     }
 
     public override IEnumerator RunOptions(Options optionsCollection, OptionChooser optionChooser)
