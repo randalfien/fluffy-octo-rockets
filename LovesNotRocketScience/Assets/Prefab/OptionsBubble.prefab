@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4707, y: 0.29}
-  m_SizeDelta: {x: 4.5363, y: 0.5509}
+  m_AnchoredPosition: {x: 3.348, y: 0.29}
+  m_SizeDelta: {x: 8.291, y: 0.551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &3718534300388766035
 MeshRenderer:
@@ -280,7 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3718534301004969833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2033, y: 0, z: 0}
+  m_LocalPosition: {x: 3.104, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3718534300727684789}
@@ -329,7 +329,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 5.196536, y: 1.54}
+  m_Size: {x: 8.998225, y: 1.54}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -371,8 +371,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4707, y: -0.4}
-  m_SizeDelta: {x: 4.5363, y: 0.5509}
+  m_AnchoredPosition: {x: 3.287, y: -0.4}
+  m_SizeDelta: {x: 8.168, y: 0.551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &5204746925021055690
 MeshRenderer:
