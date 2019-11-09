@@ -352,12 +352,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sourceText:
-  - {fileID: 4900000, guid: c76d734350cdfe74f834346146ccf820, type: 3}
+  - {fileID: 4900000, guid: 77d15ed0c2e78034290427211e5547f7, type: 3}
   stringGroups: []
   shouldOverrideLanguage: 0
   overrideLanguage: 10
   variableStorage: {fileID: 654299583}
   dialogueUI: {fileID: 872201796}
-  startNode: Start
+  startNode: Conversation1
   startAutomatically: 1
   automaticCommands: 1
