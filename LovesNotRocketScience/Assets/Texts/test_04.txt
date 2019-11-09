@@ -1,43 +1,37 @@
-title: Conversation-S2-2-2-1
+title: ConversationS2221
 tags: 
 colorID: 0
 position: 592,181
 ---
 Ugh, what did I expect from you.
 
-#To pity you?
+$To pity you?
 
 No, but at least a little empathy.
-
-#I got no time for that. Look on your rad-
-
+I got no time for that. Look on your rad-
 Would you at least play a game with me?
-
-[[Well, Okay.|Conversation-S2-game-0]]
-[[Ugh, I guess.|Conversation-S2-game-0]]
-
-
+[[Well, Okay.|ConversationS2game0]]
+[[Ugh, I guess.|ConversationS2game0]]
 ===
 
-title: Conversation-S2-game-0
+title: ConversationS2game0
 tags: 
 colorID: 0
 position: 387,487
 ---
 Okay, it is Word Chain. I'll go first..
-
 The word is...
 Misunderstanding
-#Ehm...
+Ehm...
 You go with g.
-#I know the rules, gosh.
-#Gutted
+I know the rules, gosh.
+Gutted
 Disdain
-#Nowhere
+Nowhere
 Eerie
-#Entropy
+Entropy
 Y?
-#Yeah, deal with it.
+Yeah, deal with it.
 Uhm.
-#So?
+So?
 I don't know.
