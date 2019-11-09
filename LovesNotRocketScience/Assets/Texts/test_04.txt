@@ -7,7 +7,7 @@ Ugh, what did I expect from you.
 
 $To pity you?
 <<move Sky 6>>
-<<rotate Rocket 66>>
+<<rotate Rocket1 66>>
 <<rotate Rocket2 66>>
 wait(5)
 No, but at least a little empathy.
