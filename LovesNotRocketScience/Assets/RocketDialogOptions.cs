@@ -32,7 +32,7 @@ public class RocketDialogOptions : MonoBehaviour
 
         while (!_optionsConfirmed) yield return null;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.2f);
     }
 
     private void Update()
