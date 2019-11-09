@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 8365688096625524357}
   - component: {fileID: 8365688096625524358}
   - component: {fileID: 8365688096625524359}
+  - component: {fileID: 1497575038}
   m_Layer: 0
   m_Name: STRELA
   m_TagString: Untagged
@@ -111,6 +112,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1497575038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8365688096625524377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549bd0cd6054b7544a3b01f46b24d35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter: {fileID: 0}
+  Clr: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8365688096880638746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,7 +4924,7 @@ ParticleSystem:
   m_GameObject: {fileID: 8365688097105753126}
   serializedVersion: 6
   lengthInSec: 5
-  simulationSpeed: 1
+  simulationSpeed: 2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0

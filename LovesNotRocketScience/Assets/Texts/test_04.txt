@@ -6,7 +6,7 @@ position: 592,181
 Ugh, what did I expect from you.
 
 $To pity you?
-
+wait(5)
 No, but at least a little empathy.
 I got no time for that. Look on your rad-
 Would you at least play a game with me?
