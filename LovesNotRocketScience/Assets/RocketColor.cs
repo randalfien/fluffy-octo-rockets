@@ -19,15 +19,8 @@ public class RocketColor : MonoBehaviour
 
     private void UpdateColor()
     {
-        Mesh mesh = GetComponent<MeshFilter>().mesh;
-        Vector3[] vertices = mesh.vertices;
-
-        Color[] colors = new Color[vertices.Length];
-
-        for (int i = 0; i < vertices.Length; i++)
-            colors[i] = Clr;
-
-        mesh.colors = colors;
+        var mesh = GetComponent<SpriteRenderer>();
+        mesh.color = Clr;
     }
 
     public void TweenToPos(float pos)
@@ -43,6 +36,6 @@ public class RocketColor : MonoBehaviour
             Clr = Gradient.Evaluate(_pos);
         }
         
-        UpdateColor(); // move this into the if {
+        UpdateColor(); // move this into the if 
     }
 }
