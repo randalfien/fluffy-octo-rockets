@@ -1,0 +1,43 @@
+title: Conversation-S2-2-2-1
+tags: 
+colorID: 0
+position: 592,181
+---
+Ugh, what did I expect from you.
+
+#To pity you?
+
+No, but at least a little empathy.
+
+#I got no time for that. Look on your rad-
+
+Would you at least play a game with me?
+
+[[Well, Okay.|Conversation-S2-game-0]]
+[[Ugh, I guess.|Conversation-S2-game-0]]
+
+
+===
+
+title: Conversation-S2-game-0
+tags: 
+colorID: 0
+position: 387,487
+---
+Okay, it is Word Chain. I'll go first..
+
+The word is...
+Misunderstanding
+#Ehm...
+You go with g.
+#I know the rules, gosh.
+#Gutted
+Disdain
+#Nowhere
+Eerie
+#Entropy
+Y?
+#Yeah, deal with it.
+Uhm.
+#So?
+I don't know.
