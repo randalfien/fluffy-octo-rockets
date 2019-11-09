@@ -21,7 +21,9 @@ public class RocketDialogOptions : MonoBehaviour
     private bool IsOneAnswer;
     
     public void SetOptions(IList<string> options)
+    
     {
+        _savedOptions = options;
         if (options.Count < 2)
         {
             IsOneAnswer = true;
@@ -33,7 +35,7 @@ public class RocketDialogOptions : MonoBehaviour
             return;
         }
 
-        _savedOptions = options;
+     
         
         Text1.text = GetOptionText(options[0]);
         Text2.text = GetOptionText(options[1]);
