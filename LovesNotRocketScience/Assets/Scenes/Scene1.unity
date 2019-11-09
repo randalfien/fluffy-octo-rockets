@@ -666,13 +666,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sourceText:
-  - {fileID: 4900000, guid: ac1e2df88e459ee4297a1fab8bde46df, type: 3}
+  - {fileID: 4900000, guid: eb66ae78962660a40ab43ae608647c4b, type: 3}
   stringGroups: []
   shouldOverrideLanguage: 0
   overrideLanguage: 10
   variableStorage: {fileID: 654299583}
   dialogueUI: {fileID: 872201796}
-  startNode: ConversationS2221
+  startNode: Conversation1
   startAutomatically: 1
   automaticCommands: 1
 --- !u!1001 &5329917055348214916
