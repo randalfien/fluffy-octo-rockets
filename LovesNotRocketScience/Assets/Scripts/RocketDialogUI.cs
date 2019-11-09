@@ -1,4 +1,7 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using DG.Tweening;
 using UnityEngine;
 using Yarn;
 using Yarn.Unity;
@@ -11,17 +14,37 @@ public class RocketDialogUI : DialogueUIBehaviour
     public Transform Point2;
     public Transform OptionsPoint;
     public Camera GameObjectCamera;
+
+    public float Padding = 2.1f;
+    
+    private List<GameObject> R1Bubbles = new List<GameObject>();
+    private List<GameObject> R2Bubbles = new List<GameObject>();
     
     public override IEnumerator RunLine(Line line)
     {
         print(line.text);
+
+        foreach (var a in R1Bubbles)
+        {
+            a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+        }
+        foreach (var a in R2Bubbles)
+        {
+            a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+        }
+        if (R1Bubbles.Count > 0)
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+
         var bubble = Instantiate(BubblePrefab);
         bubble.GetComponent<DialogBubble>().Text = line.text;
         bubble.transform.position = Point1.position;
         GameObjectCamera.gameObject.SetActive(false);
-        yield return new WaitForSeconds(line.text.Length*0.05f);
+        yield return new WaitForSeconds(line.text.Length*0.06f);
         GameObjectCamera.gameObject.SetActive(true);
-        Destroy(bubble);
+        
+        R1Bubbles.Add(bubble);
     }
 
     public override IEnumerator RunOptions(Options optionsCollection, OptionChooser optionChooser)
@@ -38,13 +61,27 @@ public class RocketDialogUI : DialogueUIBehaviour
         optionsScript.SetOptions(optionsCollection.options);
         yield return optionsScript.WaitForInput(optionChooser);
         
+
+        
+        Destroy(optionsp);
+
+        foreach (var a in R2Bubbles)
+        {
+            a.transform.DOMove(a.transform.position + Vector3.up * Padding, 1).SetEase(Ease.InOutCubic);
+        }
+
+        if (R2Bubbles.Count > 0)
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+        
         var bubble = Instantiate(BubblePrefab);
         bubble.GetComponent<DialogBubble>().Text = optionsScript.SelectedText;
         bubble.transform.position = Point2.position;
         
-        yield return new WaitForSeconds(optionsScript.SelectedText.Length*0.03f);
-        Destroy(bubble);
-        Destroy(optionsp);
+        R2Bubbles.Add(bubble);
+        
+        yield return new WaitForSeconds(optionsScript.SelectedText.Length*0.06f);
     }
 
     public override IEnumerator RunCommand(Command command)
@@ -53,8 +90,19 @@ public class RocketDialogUI : DialogueUIBehaviour
     }
     
     public override IEnumerator DialogueComplete () {
-        print("complete");
-        yield break;
+        yield return new WaitForSeconds(2f);
+        
+        foreach (var a in R1Bubbles)
+        {
+            a.GetComponent<DialogBubble>().TextText.DOFade(0, 2f);
+        }
+        foreach (var a in R2Bubbles)
+        {
+            a.GetComponent<DialogBubble>().TextText.DOFade(0, 2f);
+        }
+        
+        
+        yield return new WaitForSeconds(2f);
     }
     
     public override IEnumerator DialogueStarted () {
