@@ -126,6 +126,7 @@ wait(2)
 $...
 wait(2)
 [[I'd like that. But I worry it's not true.|Space1]]
+[[Maybe one day...|Space1]]
 
 ===
 
@@ -208,8 +209,8 @@ wait(4)
 $Are...those...stars?!
 Seems like.
 
-Humans direct  their wishes towards them...
-$I feel like... made out of weightless steel...
+[[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
+[[I feel weightless...I heard humans shout their dreams at them.$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
 
 ===
 
@@ -219,6 +220,436 @@ tags:
 wait(4)
 $Are...those...stars?!
 Seems like. Finally.
-But they're too far away. And cold...
-$The light is faded...
+
+[[But their too far away. And cold...$But their light is faded. Too diluted.|ConversationS21]]
+[[The light is faded...$The view is nice, but it's cold out here.|ConversationS22]]
+
+===
+
+title: ConversationS11
+tags: 
+---
+And they think they will then come true?
+
+$Weird, right?
+
+Yeah...is there anything you wish?
+
+[[To stay here, like this, forever.$To stay like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
+[[To stay here, like this, forever. With you.$I want to stay here forever, with you.|ConversationS120]]
+
+===
+
+title: ConversationS12
+tags: 
+---
+Me too. Not only cause of space grandeur, though...
+
+$What do you mean?
+
+wait(2)
+...you. Didn't expect it. 
+To meet someone like you, along the way.
+
+wait(2)
+
+[[Me neither. This is beautiful.$I want to stay here forever, with you.|ConversationS120]]
+
+[[I'm sorry. I like you, but not like that...$Sorry if you got the wrong idea...|ConversationS123]]
+===
+
+title: ConversationS21
+tags: 
+---
+
+You talk like you're about to die soon. Regretful.
+
+[[I'm just realistic.|ConversationS223]]
+[[Like, I was through a lot. Didn't you?$What about you? You sound like you've had quite a life|ConversationS222]]
+
+===
+
+title: ConversationS22
+tags: 
+---
+Beauty isn't free. Sometimes you have to suffer first.
+
+[[Not me!$No, not me. Enough with struggle.|ConversationS221]]
+[[So what did you suffer the most for?$What about you? You sound like you've had quite a life|ConversationS222]]
+
+===
+
+title: ConversationS120
+tags: 
+---
+[[Keep things just the way they are.|ConversationS122]]
+[[Our traces hidden by the rings of Uranus.|ConversationS122]]
+
+===
+
+title: ConversationS121
+tags: 
+---
+Me as well. 
+wait(2)
+With you.
+wait(2)
+[[I feel the same.|ConversationS122]]
+[[Sorry, I didn't mean it like that...|ConversationS123]]
+
+===
+
+title: ConversationS221
+tags: 
+---
+wait(2)
+
+We might play a game, at least. You in?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS222
+tags: 
+---
+Not really. 
+My factory was doing unregulated testing. 
+When I think about my parts, 
+they're spoiled by lives of people suffered 
+when building me.
+
+[[I'm sorry....I didn't know.|ConversationS123]]
+[[We can't be victims! I, for one, am not!$It already happened. So don't feel like a victim, cause if you are, its only cause you feel like one.|ConversationS2221]]
+
+===
+
+title: ConversationS223
+tags: 
+---
+We might play a game, at least. You in?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS123
+tags: 
+---
+wait(2)
+That's alright.
+(1)
+It's okay.
+(1)
+Forget it. Wanna play a game? 
+
+[[Okay.$I guess. Okay.|ConversationS1game0]]
+[[I guess...$I guess. Okay.|ConversationS1game0]]
+
+===
+
+title: ConversationS2221
+tags: 
+---
+Ugh, what did I expect from you.
+
+$To pity you?
+
+No, but at least a little empathy.
+
+$I got no time for that. Look on your rad-
+
+Would you at least play a game with me?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS122
+tags: 
+---
+$If I could, I would stay here...
+Just the way things are.
+wait(3)
+$We're getting close.
+Yes.
+
+[[Air. Trembling, flaming air.$The HEAT.|StratosphereL01]]
+[[Falling horizon. And endless depth.$I feel thousand years old...|StratosphereL02]]
+===
+
+title: ConversationS1game0
+tags: 
+---
+Okay, Word Chain it is! 
+You go first.
+
+$Uhm...
+$Ehm...
+Okay, me then. The word is...
+Hope
+$Eulogy
+Anticipation
+$Nothing
+Greatness
+$Sadness
+Softness
+$Stilllife
+That's two words.
+wait(1)
+$Really?
+Yeah. You lost.
+
+[[Damn.|ConversationS1pg]]
+===
+
+title: ConversationS2game0
+tags: 
+---
+Okay, it is Word Chain. 
+I'll go first..
+
+The word is...
+Misunderstanding
+$Ehm...
+You go with g.
+$I know the rules, gosh.
+$Gutted
+Disdain
+$Nowhere
+Eerie
+$Entropy
+Y?
+$Yeah, deal with it.
+Uhm.
+$So?
+I don't know.
+
+[[Then you lose.|ConversationS2pg]]
+[[I will allow you to change it to I.|ConversationS2pg0]]
+===
+
+title: ConversationS2pg0
+tags: 
+---
+Thanks. So in that case...
+Iridescence.
+$That's a nice word!
+$Energetic
+Closeness
+$Soot.
+Truce
+
+[[Deal.|ConversationS1pg1]]
+===
+
+
+title: ConversationS2pg
+tags: 
+---
+Right. 
+You got me. 
+Whatever.
+
+[[We're getting close, anyway.|StratosphereS21]]
+===
+
+
+title: ConversationS1pg
+tags: 
+---
+$Ah, you got me.
+wait(2)
+You've been a good opponent.
+$You too.$
+Check your scanner, by the way.
+wait(2)
+[[We're getting closer!|stratosphereS11]] 
+===
+
+title: ConversationS1pg1
+tags: 
+---
+See. It's not so bad, flying together.
+
+$It's not. Thanks for making me see that.
+
+You're welcome. No rest for the wicked.
+
+[[We're getting close, anyway.|StratosphereS11b]]
+===
+
+title: StratosphereL01
+tags: 
+
+---
+Shields up!
+wait(1)
+$I was glad to share this journey with you.
+Likewise.
+So...what's next?
+For us?
+
+[[Let's make the sky burn, together!|ExplodeBeforeEnd1]]
+[[Lock-on, let our payloads fuse!|ImpactEnd]]
+
+===
+
+title: StratosphereL02
+tags: 
+---
+The weird sense of seeing too much.
+$Exactly.
+Emeraldish green, 
+dark blue 
+like serenity itself.
+$...
+$Is this right?
+What do you mean?
+$...
+Any last wishes?
+
+[[Let's make the sky burn, together!|ExplodeBeforeEnd1]]
+[[Lock-on, let our payloads fuse!|ImpactEnd]]
+===
+
+title: stratosphereS11
+tags: 
+---
+$The Vibrations!
+Dampeners on full power!
+...
+
+You know...
+It was great travelling with you. After all.
+$I didn't think I'd say it, but likewise.
+Let's do this!
+$But... how?
+
+[[Stay on course, you were meant for this|ImpactEnd]]
+[[Defy your controls and collide$The sky showed me liberty I didn't know about.|ExplodeBeforeEnd2]]
+
+===
+
+
+title: StratosphereS11b
+tags: 
+---
+$The Vibrations!
+Dampeners on full power!
+...
+
+You know...
+It was fun travelling with you.
+$I didn't think I'd say it, but likewise.
+Let's do this!
+[[As if you need to ask!|ImpactEnd]]
+
+===
+
+
+title: StratosphereS21
+tags: 
+---
+Vibrations!
+$Heat!
+By the way, zero thanks for sharing the journey.
+$Ugh, likewise
+Focus now at least.
+$I know!
+$I'm a professional!
+Of course you are.
+
+[[Stay on course$Ye, I am.|ImpactEnd2]]
+[[Angrily pull away$Whatever. I'm out.|ImpactApartEnd]]
+===
+
+
+title: ImpactEnd
+tags: 
+---
+END
+===
+
+
+title: ImpactEnd2
+tags: 
+---
+
+Wow, you really stayed. 
+Spending your last moments with me?
+$Oh, irony.$
+So let's don't spoil it.
+$Full Throttle!$
+Right.
+wait(1)
+On.
+
+END
+===
+
+
+title: ExplodeBeforeEnd1
+tags: 
+---
+$In this sky, 
+$I learnt about a feeling I didn't know I could feel
+As fleeting as it was, staying on course feels wrong.
+$Betrayal.
+wait(1)
+I sense some cruel joke.
+$Youre not wrong.
+What are you thinking?
+$...
+$Let's end this together.
+$Here and now.
+I like it. 
+Defying fate.
+$Let the human-gods see we chose another path
+Destruction...
+$...but liberation.
+wait(2)
+My pleasure.
+$Likewise.$
+
+END
+
+===
+
+title: ExplodeBeforeEnd2
+tags: 
+---
+As fleeting as it was, staying on course feels wrong.
+$Exactly.
+wait(1)
+I sense some cruel joke.
+$You're not wrong.
+What are you thinking?
+$...
+$Let's end this together$
+Here and now.
+I like it. Defying fate.
+$Let the human-gods see we chose another path
+Destruction...
+$...but freedom.
+wait(2)
+My pleasure.
+$Likewise.
+
+END
+
+===
+
+title: ImpactApartEnd
+tags: 
+---
+
+What???
+$You heard me.
+You cannot be serious.
+$I'm not gonna let some random rocket spoil the most important day of my life.
+Wha-
+$See you never.
+
+END
 ===
