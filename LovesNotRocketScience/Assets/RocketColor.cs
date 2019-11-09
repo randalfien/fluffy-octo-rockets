@@ -41,7 +41,8 @@ public class RocketColor : MonoBehaviour
         {
             _pos += Time.deltaTime;
             Clr = Gradient.Evaluate(_pos);
-            UpdateColor();
         }
+        
+        UpdateColor(); // move this into the if {
     }
 }
