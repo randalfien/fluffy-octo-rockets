@@ -1,6 +1,7 @@
 title: Conversation1
 tags: 
 ---
+<<setactive Druzica true>>
 wait(4)
 <<move Sky 5>>
 Hey, you got a nice thrust fire!
