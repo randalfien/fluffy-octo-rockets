@@ -7,7 +7,6 @@ wait(4)
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
 Hey, you got a nice thrust fire!
-<<switchscene SceneSwitcher happy>>
 
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
@@ -820,7 +819,7 @@ tags:
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
 <<move Sky 0>>
-END
+<<switchscene SceneSwitcher sad>>
 ===
 
 
@@ -842,7 +841,8 @@ Right.
 wait(1)
 On.
 
-END
+<<switchscene SceneSwitcher sad>>
+
 ===
 
 
@@ -877,7 +877,8 @@ wait(1)
 
 $Likewise.$
 
-END
+<<switchscene SceneSwitcher happy>>
+
 
 ===
 
@@ -907,7 +908,7 @@ wait(2)
 My pleasure.
 $Likewise.
 
-END
+<<switchscene SceneSwitcher happy>>
 
 ===
 
@@ -923,5 +924,5 @@ $I'm not gonna let some random rocket spoil the most important day of my life.
 Wha-
 $See you never.
 
-END
+<<switchscene SceneSwitcher sad>>
 ===
