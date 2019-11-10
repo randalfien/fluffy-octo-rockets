@@ -246,7 +246,7 @@ Seems like. Finally.
 title: ConversationS11
 tags: 
 ---
-<<move Sky 37>>
+<<move Sky 30>>
 
 And they think they will then come true?
 
@@ -262,7 +262,7 @@ Yeah...is there anything you wish?
 title: ConversationS12
 tags: 
 ---
-<<move Sky 37>>
+<<move Sky 30>>
 Me too. Not only cause of space grandeur, though...
 
 $What do you mean?
@@ -281,7 +281,7 @@ wait(2)
 title: ConversationS21
 tags: 
 ---
-<<move Sky 37>>
+<<move Sky 30>>
 You talk like you're about to die soon. Regretful.
 
 [[I'm just realistic.|ConversationS223]]
@@ -292,7 +292,7 @@ You talk like you're about to die soon. Regretful.
 title: ConversationS22
 tags: 
 ---
-<<move Sky 37>>
+<<move Sky 30>>
 Beauty isn't free. Sometimes you have to suffer first.
 
 [[Not me!$No, not me. Enough with struggle.|ConversationS221]]
@@ -303,7 +303,7 @@ Beauty isn't free. Sometimes you have to suffer first.
 title: ConversationS120
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 [[Keep things just the way they are.|ConversationS122]]
 [[Our traces hidden by the rings of Uranus.|ConversationS122]]
 
@@ -312,7 +312,7 @@ tags:
 title: ConversationS121
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 Me as well. 
 wait(2)
 With you.
@@ -325,7 +325,7 @@ wait(2)
 title: ConversationS221
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 wait(2)
 
 We might play a game, at least. You in?
@@ -337,7 +337,7 @@ We might play a game, at least. You in?
 title: ConversationS222
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 Not really. 
 My factory was doing unregulated testing. 
 When I think about my parts, 
@@ -352,7 +352,7 @@ when building me.
 title: ConversationS223
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 We might play a game, at least. You in?
 
 [[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
@@ -362,7 +362,7 @@ We might play a game, at least. You in?
 title: ConversationS123
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 wait(2)
 That's alright.
 (1)
@@ -378,7 +378,7 @@ Forget it. Wanna play a game?
 title: ConversationS2221
 tags: 
 ---
-<<move Sky 47>>
+<<move Sky 27>>
 Ugh, what did I expect from you.
 
 $To pity you?
@@ -396,7 +396,7 @@ Would you at least play a game with me?
 title: ConversationS122
 tags: 
 ---
-<<move Sky 42>>
+<<move Sky 27>>
 $If I could, I would stay here...
 Just the way things are.
 wait(3)
@@ -410,7 +410,7 @@ Yes.
 title: ConversationS1game0
 tags: 
 ---
-<<move Sky 50>>
+<<move Sky 22>>
 
 Okay, Word Chain it is! 
 You go first.
@@ -437,7 +437,7 @@ Yeah. You lost.
 title: ConversationS2game0
 tags: 
 ---
-<<move Sky 50>>
+<<move Sky 22>>
 
 Okay, it is Word Chain. 
 I'll go first..
@@ -465,7 +465,7 @@ I don't know.
 title: ConversationS2pg0
 tags: 
 ---
-<<move Sky 53>>
+<<move Sky 20>>
 
 Thanks. So in that case...
 Iridescence.
@@ -482,7 +482,7 @@ Truce
 title: ConversationS2pg
 tags: 
 ---
-<<move Sky 53>>
+<<move Sky 20>>
 
 Right. 
 You got me. 
@@ -495,7 +495,7 @@ Whatever.
 title: ConversationS1pg
 tags: 
 ---
-<<move Sky 58>>
+<<move Sky 15>>
 
 $Ah, you got me.
 wait(2)
@@ -509,6 +509,7 @@ wait(2)
 title: ConversationS1pg1
 tags: 
 ---
+<<move Sky 15>>
 See. It's not so bad, flying together.
 
 $It's not. Thanks for making me see that.
@@ -522,7 +523,7 @@ title: StratosphereL01
 tags: 
 
 ---
-<<move Sky 60>>
+<<move Sky 10>>
 Shields up!
 wait(1)
 $I was glad to share this journey with you.
@@ -538,7 +539,7 @@ For us?
 title: StratosphereL02
 tags: 
 ---
-<<move Sky 60>>
+<<move Sky 10>>
 The weird sense of seeing too much.
 $Exactly.
 Emeraldish green, 
@@ -557,7 +558,7 @@ Any last wishes?
 title: stratosphereS11
 tags: 
 ---
-<<move Sky 60>>
+<<move Sky 10>>
 $The Vibrations!
 Dampeners on full power!
 ...
@@ -577,7 +578,7 @@ $But... how?
 title: StratosphereS11b
 tags: 
 ---
-<<move Sky 60>>
+<<move Sky 10>>
 $The Vibrations!
 Dampeners on full power!
 ...
@@ -594,7 +595,7 @@ Let's do this!
 title: StratosphereS21
 tags: 
 ---
-<<move Sky 60>>
+<<move Sky 10>>
 Vibrations!
 $Heat!
 By the way, zero thanks for sharing the journey.
@@ -613,7 +614,7 @@ title: ImpactEnd
 tags: 
 ---
 
-<<move Sky 66>>
+<<move Sky 0>>
 END
 ===
 
@@ -621,7 +622,7 @@ END
 title: ImpactEnd2
 tags: 
 ---
-<<move Sky 66>>
+<<move Sky 0>>
 Wow, you really stayed. 
 Spending your last moments with me?
 $Oh, irony.$
@@ -638,7 +639,7 @@ END
 title: ExplodeBeforeEnd1
 tags: 
 ---
-<<move Sky 66>>
+<<move Sky 0>>
 $In this sky, 
 $I learnt about a feeling I didn't know I could feel
 As fleeting as it was, staying on course feels wrong.
@@ -666,7 +667,7 @@ END
 title: ExplodeBeforeEnd2
 tags: 
 ---
-<<move Sky 66>>
+<<move Sky 0>>
 As fleeting as it was, staying on course feels wrong.
 $Exactly.
 wait(1)
@@ -691,7 +692,7 @@ END
 title: ImpactApartEnd
 tags: 
 ---
-<<move Sky 66>>
+<<move Sky 0>>
 What???
 $You heard me.
 You cannot be serious.
