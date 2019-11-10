@@ -1,7 +1,7 @@
 title: Conversation1
 tags: 
 ---
-<<setactive Druzica true>>
+<<setactive SputnikRoot true>>
 wait(4)
 <<move Sky 5>>
 <<rotate Rocket1 60>>
