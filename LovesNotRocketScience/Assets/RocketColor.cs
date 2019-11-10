@@ -21,6 +21,7 @@ public class RocketColor : MonoBehaviour
     {
         var mesh = GetComponent<SpriteRenderer>();
         mesh.color = Clr;
+        RocketDialogUI.TextColor = Clr;
     }
 
     public void TweenToPos(float pos)
