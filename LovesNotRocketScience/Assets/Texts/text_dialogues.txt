@@ -638,10 +638,11 @@ Shields up!
 wait(1)
 $I was glad to share this journey with you.
 Likewise.
-<<rotate Rocket1 -40>>
-<<rotate Rocket2 -40>>
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 So...what's next?
 For us?
+
 
 [[Let's make the sky burn, together!|ExplodeBeforeEnd1]]
 [[Lock-on, let our payloads fuse!|ImpactEnd]]
@@ -662,8 +663,8 @@ like serenity itself.
 $...
 $Is this right?
 wait(1)
-<<rotate Rocket1 -40>>
-<<rotate Rocket2 -40>>
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 What do you mean?
 $...
 Any last wishes?
@@ -678,17 +679,16 @@ tags:
 <<move Sky 10>>
 $The Vibrations!
 wait(1)
-<<rotate Rocket1 -35>>
-<<rotate Rocket2 -35>>
 Dampeners on full power!
 ...
-
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 You know...
 It was great travelling with you. After all.
 $I didn't think I'd say it, but likewise.
 wait(1)
-<<rotate Rocket1 -40>>
-<<rotate Rocket2 -40>>
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
 Let's do this!
 $But... how?
 
@@ -750,7 +750,8 @@ Of course you are.
 title: ImpactEnd
 tags: 
 ---
-
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
 <<move Sky 0>>
 END
 ===
