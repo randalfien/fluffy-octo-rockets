@@ -106,7 +106,10 @@ wait(2)
 title: Conversation41
 tags: 
 ---
+<<rotate Rocket1 45>>
 <<move Sky 20>>
+
+<<rotate Rocket2 45>>
 Riiighht. Does that work for you, though?
 wait(2)
 
@@ -118,9 +121,12 @@ title: Conversation42
 tags: 
 ---
 <<move Sky 20>>
-
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
 Same. We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
 [[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 
 ===
@@ -128,18 +134,26 @@ Same. We're alike. You and I. Nice polish by the way.
 title: Conversation43
 tags: 
 ---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
 <<move Sky 20>>
 wait(5)
 <<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
 [[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 ===
 
 title: Conversation44
 tags: 
 ---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
 <<move Sky 20>>
 wait(5)
 <<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
 Is... everything okay? Just a joke, you know. 
 wait(2)
 [[Riiighhhtt.|Conversation441]]
@@ -149,12 +163,16 @@ wait(2)
 title: Conversation45
 tags: 
 ---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
 <<move Sky 20>>
 Sometimes I imagine it's full of plush toys, for children.
 
 wait(2)
 $...
 <<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
 wait(1)
 [[I'd like that. But I worry it's not true.|Space1]]
 [[Maybe one day...|Space1]]
@@ -164,9 +182,13 @@ wait(1)
 title: Conversation46
 tags: 
 ---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
 <<move Sky 20>>
 Hey, I'm not that per-
 <<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
 [[Wait, look!|Space1]]
 	
 ===
@@ -174,10 +196,14 @@ Hey, I'm not that per-
 title: Conversation47
 tags: 
 ---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
 <<move Sky 20>>
 I'm sorry, alright! I just found your... polish intriguing, that's all.
 
 wait(3)
+<<rotate Rocket1 35>>
+<<rotate Rocket2 35>>
 <<move Sky 25>>
 Didn't mean to offend.
 
@@ -189,9 +215,13 @@ Didn't mean to offend.
 title: Conversation431
 tags: 
 ---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
 <<move Sky 27>>
 ...
 Thank...you--look!
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
 wait(2)
 $whoa!
 (2)
@@ -204,6 +234,8 @@ title: Conversation441
 tags: 
 ---
 <<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
 Whoa!
 
 [[...space!|Space2]]
@@ -213,6 +245,8 @@ title: Conversation471
 tags: 
 ---
 <<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
 Wait! Look!
 
 [[...space!|Space2]]
@@ -225,6 +259,8 @@ title: Conversation472
 tags: 
 ---
 <<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
 Wait! I'm sorry.
 But look around!
 
@@ -239,6 +275,8 @@ title: Space1
 tags: 
 ---
 <<move Sky 33>>
+<<rotate Rocket1 17>>
+<<rotate Rocket2 17>>
 wait(4)
 $Are...those...stars?!
 Seems like.
@@ -252,9 +290,15 @@ title: Space2
 tags: 
 ---
 <<move Sky 33>>
+
+<<rotate Rocket1 17>>
+<<rotate Rocket2 17>>
 wait(4)
 $Are...those...stars?!
 Seems like. Finally.
+
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
 
 [[But their too far away. And cold...$But their light is faded. Too diluted.|ConversationS21]]
 [[The light is faded...$The view is nice, but it's cold out here.|ConversationS22]]
@@ -267,10 +311,16 @@ tags:
 <<move Sky 30>>
 
 And they think they will then come true?
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
+wait(1)
 
 $Weird, right?
-
+wait(1)
 Yeah...is there anything you wish?
+
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
 
 [[To stay here, like this, forever.$To stay like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
 [[To stay here, like this, forever. With you.$I want to stay here forever, with you.|ConversationS120]]
@@ -281,6 +331,8 @@ title: ConversationS12
 tags: 
 ---
 <<move Sky 30>>
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
 Me too. Not only cause of space grandeur, though...
 
 $What do you mean?
@@ -290,6 +342,8 @@ wait(2)
 To meet someone like you, along the way.
 
 wait(2)
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
 
 [[Me neither. This is beautiful.$I want to stay here forever, with you.|ConversationS120]]
 
@@ -300,6 +354,8 @@ title: ConversationS21
 tags: 
 ---
 <<move Sky 30>>
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
 You talk like you're about to die soon. Regretful.
 
 [[I'm just realistic.|ConversationS223]]
@@ -311,6 +367,8 @@ title: ConversationS22
 tags: 
 ---
 <<move Sky 30>>
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
 Beauty isn't free. Sometimes you have to suffer first.
 
 [[Not me!$No, not me. Enough with struggle.|ConversationS221]]
@@ -322,6 +380,8 @@ title: ConversationS120
 tags: 
 ---
 <<move Sky 27>>
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 [[Keep things just the way they are.|ConversationS122]]
 [[Our traces hidden by the rings of Uranus.|ConversationS122]]
 
@@ -330,6 +390,8 @@ tags:
 title: ConversationS121
 tags: 
 ---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 <<move Sky 27>>
 Me as well. 
 wait(2)
@@ -345,6 +407,8 @@ tags:
 ---
 <<move Sky 27>>
 wait(2)
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 
 We might play a game, at least. You in?
 
@@ -355,6 +419,8 @@ We might play a game, at least. You in?
 title: ConversationS222
 tags: 
 ---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 <<move Sky 27>>
 Not really. 
 My factory was doing unregulated testing. 
@@ -370,6 +436,8 @@ when building me.
 title: ConversationS223
 tags: 
 ---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 <<move Sky 27>>
 We might play a game, at least. You in?
 
@@ -380,6 +448,8 @@ We might play a game, at least. You in?
 title: ConversationS123
 tags: 
 ---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 <<move Sky 27>>
 wait(2)
 That's alright.
@@ -396,6 +466,8 @@ Forget it. Wanna play a game?
 title: ConversationS2221
 tags: 
 ---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
 <<move Sky 27>>
 Ugh, what did I expect from you.
 
@@ -414,6 +486,8 @@ Would you at least play a game with me?
 title: ConversationS122
 tags: 
 ---
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
 <<move Sky 27>>
 $If I could, I would stay here...
 Just the way things are.
@@ -428,6 +502,8 @@ Yes.
 title: ConversationS1game0
 tags: 
 ---
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
 <<move Sky 22>>
 
 Okay, Word Chain it is! 
@@ -442,6 +518,8 @@ Anticipation
 $Nothing
 Greatness
 $Sadness
+<<rotate Rocket1 -20>>
+<<rotate Rocket2 -20>>
 Softness
 $Stilllife
 That's two words.
@@ -459,7 +537,8 @@ tags:
 
 Okay, it is Word Chain. 
 I'll go first..
-
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
 The word is...
 Misunderstanding
 $Ehm...
@@ -470,6 +549,9 @@ Disdain
 $Nowhere
 Eerie
 $Entropy
+<<rotate Rocket1 -20>>
+<<rotate Rocket2 -20>>
+wait(1)
 Y?
 $Yeah, deal with it.
 Uhm.
@@ -484,6 +566,8 @@ title: ConversationS2pg0
 tags: 
 ---
 <<move Sky 20>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
 
 Thanks. So in that case...
 Iridescence.
@@ -501,6 +585,8 @@ title: ConversationS2pg
 tags: 
 ---
 <<move Sky 20>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
 
 Right. 
 You got me. 
@@ -514,6 +600,8 @@ title: ConversationS1pg
 tags: 
 ---
 <<move Sky 15>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
 
 $Ah, you got me.
 wait(2)
@@ -528,6 +616,8 @@ title: ConversationS1pg1
 tags: 
 ---
 <<move Sky 15>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
 See. It's not so bad, flying together.
 
 $It's not. Thanks for making me see that.
@@ -542,10 +632,14 @@ tags:
 
 ---
 <<move Sky 10>>
+<<rotate Rocket1 -35>>
+<<rotate Rocket2 -35>>
 Shields up!
 wait(1)
 $I was glad to share this journey with you.
 Likewise.
+<<rotate Rocket1 -40>>
+<<rotate Rocket2 -40>>
 So...what's next?
 For us?
 
@@ -558,6 +652,8 @@ title: StratosphereL02
 tags: 
 ---
 <<move Sky 10>>
+<<rotate Rocket1 -35>>
+<<rotate Rocket2 -35>>
 The weird sense of seeing too much.
 $Exactly.
 Emeraldish green, 
@@ -565,6 +661,9 @@ dark blue
 like serenity itself.
 $...
 $Is this right?
+wait(1)
+<<rotate Rocket1 -40>>
+<<rotate Rocket2 -40>>
 What do you mean?
 $...
 Any last wishes?
@@ -578,12 +677,18 @@ tags:
 ---
 <<move Sky 10>>
 $The Vibrations!
+wait(1)
+<<rotate Rocket1 -35>>
+<<rotate Rocket2 -35>>
 Dampeners on full power!
 ...
 
 You know...
 It was great travelling with you. After all.
 $I didn't think I'd say it, but likewise.
+wait(1)
+<<rotate Rocket1 -40>>
+<<rotate Rocket2 -40>>
 Let's do this!
 $But... how?
 
@@ -596,15 +701,22 @@ $But... how?
 title: StratosphereS11b
 tags: 
 ---
+<<rotate Rocket1 -60>>
+<<rotate Rocket2 -60>>
 <<move Sky 10>>
+wait(1)
 $The Vibrations!
 Dampeners on full power!
 ...
-
+wait(1)
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 You know...
 It was fun travelling with you.
 $I didn't think I'd say it, but likewise.
 Let's do this!
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
 [[As if you need to ask!|ImpactEnd]]
 
 ===
@@ -613,16 +725,23 @@ Let's do this!
 title: StratosphereS21
 tags: 
 ---
+<<rotate Rocket1 -60>>
+<<rotate Rocket2 -60>>
 <<move Sky 10>>
 Vibrations!
+wait(1)
 $Heat!
 By the way, zero thanks for sharing the journey.
 $Ugh, likewise
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+wait(1)
 Focus now at least.
 $I know!
 $I'm a professional!
 Of course you are.
-
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
 [[Stay on course$Ye, I am.|ImpactEnd2]]
 [[Angrily pull away$Whatever. I'm out.|ImpactApartEnd]]
 ===
@@ -642,9 +761,14 @@ tags:
 ---
 <<move Sky 0>>
 Wow, you really stayed. 
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 Spending your last moments with me?
 $Oh, irony.$
 So let's don't spoil it.
+wait(1)
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
 $Full Throttle!$
 Right.
 wait(1)
@@ -662,6 +786,8 @@ $In this sky,
 $I learnt about a feeling I didn't know I could feel
 As fleeting as it was, staying on course feels wrong.
 $Betrayal.
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 wait(1)
 I sense some cruel joke.
 $Youre not wrong.
@@ -671,11 +797,16 @@ $Let's end this together.
 $Here and now.
 I like it. 
 Defying fate.
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+wait(1)
 $Let the human-gods see we chose another path
 Destruction...
 $...but liberation.
 wait(2)
 My pleasure.
+wait(1)
+
 $Likewise.$
 
 END
@@ -689,6 +820,8 @@ tags:
 As fleeting as it was, staying on course feels wrong.
 $Exactly.
 wait(1)
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
 I sense some cruel joke.
 $You're not wrong.
 What are you thinking?
@@ -696,6 +829,9 @@ $...
 $Let's end this together$
 Here and now.
 I like it. Defying fate.
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+wait(1)
 $Let the human-gods see we chose another path
 Destruction...
 $...but freedom.
@@ -713,6 +849,7 @@ tags:
 <<move Sky 0>>
 What???
 $You heard me.
+
 You cannot be serious.
 $I'm not gonna let some random rocket spoil the most important day of my life.
 Wha-
