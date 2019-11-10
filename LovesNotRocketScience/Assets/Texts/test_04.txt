@@ -22,6 +22,9 @@ tags:
 colorID: 0
 position: 387,487
 ---
+
+<<rotate Rocket1 100>>
+<<rotate Rocket2 200>>
 Okay, it is Word Chain. I'll go first..
 The word is...
 Misunderstanding
