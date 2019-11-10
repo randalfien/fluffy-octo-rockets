@@ -7,7 +7,7 @@ wait(4)
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
 Hey, you got a nice thrust fire!
-<<switchscene SceneSwitcher happy>>
+
 
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
