@@ -6,27 +6,16 @@ using Yarn.Unity;
 
 public class EndSceneFadeIn : MonoBehaviour
 {
- private SpriteRenderer MySpriteRenderer;
-    void Start () {
-    StartEnd();
-        }
-    
-    public void StartEnd()
-    {
-                MySpriteRenderer = GetComponent<SpriteRenderer>();
-                MySpriteRenderer.enabled = !MySpriteRenderer.enabled;
-                  StartCoroutine(FadeTo(0f, 2.5f));
-                  Invoke("SwitchSad",5f); 
-        }
 
-IEnumerator FadeTo(float aValue, float aTime)
-     {
-         float alpha = gameObject.GetComponent<SpriteRenderer>().color.a;
-         for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
-         {
-             Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
-             gameObject.GetComponent<SpriteRenderer>().color = newColor;
-             yield return null;
+        public float minimum = 0.0f;
+         public float maximum = 1f;
+         public float duration = 5.0f;
+         private float startTime;
+         public SpriteRenderer sprite;
+         void Start() {
+             startTime = Time.time;
          }
+         void Update() {
+             float t = (Time.time - startTime) / duration;
+             sprite.color = new Color(1f,1f,1f,Mathf.SmoothStep(minimum, maximum, t));        }
      }
-}

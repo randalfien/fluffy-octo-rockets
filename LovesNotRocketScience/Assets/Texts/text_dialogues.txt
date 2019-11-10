@@ -1,8 +1,6 @@
 title: Conversation1
 tags: 
 ---
-
-wait(4)
 <<move Sky 5>>
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
@@ -38,10 +36,10 @@ tags:
 <<move Sky 7>>
 <<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
-wait(1)
+wait(2)
 Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
 <<move Sky 10>>
-wait(1)
+wait(2)
 <<setactive CloudsUp false>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
 [[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
@@ -51,11 +49,11 @@ wait(1)
 title: Conversation31
 tags:
 ---
-<<<move Sky 13>>
+<<move Sky 13>>
 <<rotate Rocket1 50>>
 Your confidence is remarkable. I still wonder where are we headed...
 <<rotate Rocket2 50>>
-<<<move Sky 15>>
+<<move Sky 15>>
 
 [[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
 [[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
@@ -135,7 +133,7 @@ wait(3)
 Same. We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
 <<rotate Rocket1 40>>
-wait(1)
+wait(2)
 <<setactive DruziceRoot false>>
 
 <<rotate Rocket2 40>>
@@ -153,7 +151,7 @@ tags:
 wait(3)
 <<move Sky 25>>
 <<rotate Rocket1 40>>
-wait(1)
+wait(2)
 <<rotate Rocket2 40>>
 <<setactive DruziceRoot false>>
 
@@ -166,7 +164,7 @@ tags:
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
 <<move Sky 20>>
-<setactive DruziceRoot true>>
+<<setactive DruziceRoot true>>
 wait(5)
 <<move Sky 25>>
 <<rotate Rocket1 40>>
@@ -185,7 +183,7 @@ tags:
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
 <<setactive DruziceRoot true>>
-wait(1)
+wait(2)
 <<move Sky 20>>
 Sometimes I imagine it's full of plush toys, for children.
 
@@ -195,7 +193,7 @@ $...
 <<move Sky 25>>
 <<rotate Rocket1 40>>
 <<rotate Rocket2 40>>
-wait(1)
+wait(2)
 [[I'd like that. But I worry it's not true.|Space1]]
 [[Maybe one day...|Space1]]
 
@@ -301,14 +299,14 @@ tags:
 <<move Sky 33>>
 <<rotate Rocket1 17>>
 <<rotate Rocket2 17>>
-wait(1)
+wait(2)
 <<setactive Hvezdy true>>
 wait(3)
 $Are...those...stars?!
 Seems like.
-wait(1)
+wait(2)
 <<setactive DruziceRoot false>>
-wait(1)
+wait(2)
 [[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
 [[I feel weightless...I heard humans shout their dreams at them.$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
 
@@ -321,7 +319,7 @@ tags:
 
 <<rotate Rocket1 17>>
 <<rotate Rocket2 17>>
-wait(1)
+wait(2)
 <<setactive Hvezdy true>>
 wait(3)
 $Are...those...stars?!
@@ -344,11 +342,11 @@ tags:
 And they think they will then come true?
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
-wait(1)
+wait(2)
 <<setactive SputnikRoot true>>
 
 $Weird, right?
-wait(1)
+wait(2)
 Yeah...is there anything you wish?
 
 <<rotate Rocket1 5>>
@@ -559,7 +557,7 @@ tags:
 <<rotate Rocket1 -10>>
 <<rotate Rocket2 -10>>
 <<move Sky 22>>
-wait(1)
+wait(2)
 <<setactive PolarniZare true>>
 
 Okay, Word Chain it is! 
@@ -579,7 +577,7 @@ $Sadness
 Softness
 $Stilllife
 That's two words.
-wait(1)
+wait(2)
 $Really?
 Yeah. You lost.
 
@@ -590,7 +588,7 @@ title: ConversationS2game0
 tags: 
 ---
 <<move Sky 22>>
-wait(1)
+wait(2)
 <<setactive PolarniZare true>>
 
 Okay, it is Word Chain. 
@@ -609,7 +607,7 @@ Eerie
 $Entropy
 <<rotate Rocket1 -20>>
 <<rotate Rocket2 -20>>
-wait(1)
+wait(2)
 Y?
 $Yeah, deal with it.
 Uhm.
@@ -623,7 +621,7 @@ I don't know.
 title: ConversationS2pg0
 tags: 
 ---
-wait(1)
+wait(2)
 <<setactive PolarniZare false>>
 <<move Sky 20>>
 <<rotate Rocket1 -25>>
@@ -645,7 +643,7 @@ title: ConversationS2pg
 tags: 
 ---
 <<move Sky 20>>
-wait(1)
+wait(2)
 <<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
@@ -662,7 +660,7 @@ title: ConversationS1pg
 tags: 
 ---
 <<move Sky 15>>
-wait(1)
+wait(2)
 <<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
@@ -680,7 +678,7 @@ title: ConversationS1pg1
 tags: 
 ---
 <<move Sky 15>>
-wait(1)
+wait(2)
 <<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
@@ -701,7 +699,7 @@ tags:
 <<rotate Rocket1 -35>>
 <<rotate Rocket2 -35>>
 Shields up!
-wait(1)
+wait(2)
 $I was glad to share this journey with you.
 Likewise.
 <<rotate Rocket1 -70>>
@@ -728,7 +726,7 @@ dark blue
 like serenity itself.
 $...
 $Is this right?
-wait(1)
+wait(2)
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 What do you mean?
@@ -744,7 +742,7 @@ tags:
 ---
 <<move Sky 10>>
 $The Vibrations!
-wait(1)
+wait(2)
 Dampeners on full power!
 ...
 <<rotate Rocket1 -70>>
@@ -752,7 +750,7 @@ Dampeners on full power!
 You know...
 It was great travelling with you. After all.
 $I didn't think I'd say it, but likewise.
-wait(1)
+wait(2)
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
 Let's do this!
@@ -770,11 +768,11 @@ tags:
 <<rotate Rocket1 -60>>
 <<rotate Rocket2 -60>>
 <<move Sky 10>>
-wait(1)
+wait(2)
 $The Vibrations!
 Dampeners on full power!
 ...
-wait(1)
+wait(2)
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 You know...
@@ -795,13 +793,13 @@ tags:
 <<rotate Rocket2 -60>>
 <<move Sky 10>>
 Vibrations!
-wait(1)
+wait(2)
 $Heat!
 By the way, zero thanks for sharing the journey.
 $Ugh, likewise
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
-wait(1)
+wait(2)
 Focus now at least.
 $I know!
 $I'm a professional!
@@ -833,12 +831,12 @@ Wow, you really stayed.
 Spending your last moments with me?
 $Oh, irony.$
 So let's don't spoil it.
-wait(1)
+wait(2)
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
 $Full Throttle!$
 Right.
-wait(1)
+wait(2)
 On.
 
 <<switchscene SceneSwitcher sad>>
@@ -856,7 +854,7 @@ As fleeting as it was, staying on course feels wrong.
 $Betrayal.
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
-wait(1)
+wait(2)
 I sense some cruel joke.
 $Youre not wrong.
 What are you thinking?
@@ -867,13 +865,14 @@ I like it.
 Defying fate.
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
-wait(1)
+wait(2)
 $Let the human-gods see we chose another path
 Destruction...
 $...but liberation.
 wait(2)
 My pleasure.
-wait(1)
+wait(2)
+<<setvalue Affection 85>>
 
 $Likewise.$
 
@@ -888,7 +887,7 @@ tags:
 <<move Sky 0>>
 As fleeting as it was, staying on course feels wrong.
 $Exactly.
-wait(1)
+wait(2)
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 I sense some cruel joke.
@@ -900,13 +899,14 @@ Here and now.
 I like it. Defying fate.
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
-wait(1)
+wait(2)
 $Let the human-gods see we chose another path
 Destruction...
 $...but freedom.
 wait(2)
 My pleasure.
 $Likewise.
+<<setvalue Affection 85>>
 
 <<switchscene SceneSwitcher happy>>
 
@@ -918,7 +918,7 @@ tags:
 <<move Sky 0>>
 What???
 $You heard me.
-
+<<setvalue Affection -100>>
 You cannot be serious.
 $I'm not gonna let some random rocket spoil the most important day of my life.
 Wha-
