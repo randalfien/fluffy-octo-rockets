@@ -11,7 +11,7 @@ public class RocketSky : MonoBehaviour
     private void Start()
     {
         _yStart = transform.position.y;
-        MoonStart = (_yStart-26.3f);
+        MoonStart = (_yStart-26.6f);
         
     }
 
