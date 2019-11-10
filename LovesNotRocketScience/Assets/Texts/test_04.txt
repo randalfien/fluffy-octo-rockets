@@ -1,0 +1,43 @@
+title: ConversationS2221
+tags: 
+colorID: 0
+position: 592,181
+---
+Ugh, what did I expect from you.
+
+$To pity you?
+<<move Sky 6>>
+<<rotate Rocket1 66>>
+<<rotate Rocket2 66>>
+wait(5)
+No, but at least a little empathy.
+I got no time for that. Look on your rad-
+Would you at least play a game with me?
+[[be modest$I am sorry|ConversationS2game0]]
+[[Ugh, I guess.$I am sorry|ConversationS2game0]]
+===
+
+title: ConversationS2game0
+tags: 
+colorID: 0
+position: 387,487
+---
+
+<<rotate Rocket1 100>>
+<<rotate Rocket2 200>>
+Okay, it is Word Chain. I'll go first..
+The word is...
+Misunderstanding
+Ehm...
+You go with g.
+I know the rules, gosh.
+Gutted
+Disdain
+Nowhere
+Eerie
+Entropy
+Y?
+Yeah, deal with it.
+Uhm.
+So?
+I don't know.

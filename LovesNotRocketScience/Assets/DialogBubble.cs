@@ -12,4 +12,9 @@ public class DialogBubble : MonoBehaviour
     {
         set { TextField.text = value; }
     }
+    
+    public TextMeshPro TextText
+    {
+        get { return TextField; }
+    }
 }

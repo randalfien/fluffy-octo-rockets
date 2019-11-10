@@ -1,0 +1,927 @@
+title: Conversation1
+tags: 
+---
+
+wait(4)
+<<move Sky 5>>
+<<rotate Rocket1 60>>
+<<rotate Rocket2 60>>
+Hey, you got a nice thrust fire!
+
+
+[[You think it's appropriate thing to say?|Conversation21]]
+[[I guess I just love burning fuel|Conversation22]]
+
+===
+
+title: Conversation21
+tags: 
+---
+
+<<rotate Rocket1 55>>
+<<move Sky 7>>
+<<setactive CloudsUp true>>
+<<rotate Rocket2 55>>
+I'm just glad I met you, flying looks like a lonely job.
+<<move Sky 10>>
+wait(2)
+
+<<setactive CloudsUp false>>
+[[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
+[[Insist on etiquette$Still no reason to go around talking like that.|Conversation34]]
+
+===
+
+title: Conversation22
+tags: 
+---
+<<rotate Rocket1 55>>
+<<move Sky 7>>
+<<setactive CloudsUp true>>
+<<rotate Rocket2 55>>
+wait(1)
+Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
+<<move Sky 10>>
+wait(1)
+<<setactive CloudsUp false>>
+[[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
+[[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
+
+===
+
+title: Conversation31
+tags:
+---
+<<<move Sky 13>>
+<<rotate Rocket1 50>>
+Your confidence is remarkable. I still wonder where are we headed...
+<<rotate Rocket2 50>>
+<<<move Sky 15>>
+
+[[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
+[[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
+<<rotate Rocket1 47>>
+<<rotate Rocket2 47>>
+===
+
+
+
+title: Conversation32
+tags: 
+---
+<<move Sky 13>>
+<<rotate Rocket1 50>>
+There's nothing wrong about being a shy rocket. Shyness is actually quite attactive.
+<<move Sky 15>>
+<<rotate Rocket2 50>>
+[[Chuckles|Conversation43]]
+[[Chuckles, but ironically|Conversation44]]
+
+===
+
+title: Conversation33
+tags: 
+---
+<<move Sky 13>>
+<<rotate Rocket1 50>>
+
+Yes! I heard rumors, it should be in our flight plan. 
+I sometimes feel alone in this world. Could help.
+<<move Sky 15>>
+<<rotate Rocket2 50>>
+wait(4)
+[[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about whats inside our payload.|Conversation45]]
+[[I suppose you have a theory about existence of god too...$I imagine you have something to say about God as well. Everybody does.|Conversation46]]
+
+===
+
+title: Conversation34
+tags: 
+---
+<<rotate Rocket1 50>>
+<<move Sky 13>>
+wait(3)
+Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
+<<rotate Rocket2 50>>
+wait(2)
+<<move Sky 15>>
+[[I hope there're no unasked for compliments.|Conversation47]]
+[[Okay, fine$Okay, fin--|Conversation471]]
+
+
+===
+
+title: Conversation41
+tags: 
+---
+<<rotate Rocket1 45>>
+<<move Sky 20>>
+
+<<rotate Rocket2 45>>
+Riiighht. Does that work for you, though?
+wait(2)
+
+[[Ahem...$Riiiighhhttt...Wait!|Conversation441]]
+
+===
+
+title: Conversation42
+tags: 
+---
+<<move Sky 20>>
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
+<<setactive DruziceRoot true>>
+wait(3)
+Same. We're alike. You and I. Nice polish by the way.
+<<move Sky 25>>
+<<rotate Rocket1 40>>
+wait(1)
+<<setactive DruziceRoot false>>
+
+<<rotate Rocket2 40>>
+[[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
+
+===
+
+title: Conversation43
+tags: 
+---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
+<<move Sky 20>>
+<<setactive DruziceRoot true>>
+wait(3)
+<<move Sky 25>>
+<<rotate Rocket1 40>>
+wait(1)
+<<rotate Rocket2 40>>
+<<setactive DruziceRoot false>>
+
+[[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
+===
+
+title: Conversation44
+tags: 
+---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
+<<move Sky 20>>
+<setactive DruziceRoot true>>
+wait(5)
+<<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
+Is... everything okay? Just a joke, you know. 
+wait(2)
+<<setactive DruziceRoot false>>
+
+[[Riiighhhtt.|Conversation441]]
+
+===
+
+title: Conversation45
+tags: 
+---
+<<rotate Rocket1 45>>
+<<rotate Rocket2 45>>
+<<setactive DruziceRoot true>>
+wait(1)
+<<move Sky 20>>
+Sometimes I imagine it's full of plush toys, for children.
+
+wait(2)
+<<setactive DruziceRoot false>>
+$...
+<<move Sky 25>>
+<<rotate Rocket1 40>>
+<<rotate Rocket2 40>>
+wait(1)
+[[I'd like that. But I worry it's not true.|Space1]]
+[[Maybe one day...|Space1]]
+
+===
+
+title: Conversation46
+tags: 
+---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
+<<move Sky 20>>
+Hey, I'm not that per-
+<<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
+
+[[Wait, look!|Space1]]
+	
+===
+
+title: Conversation47
+tags: 
+---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
+<<move Sky 20>>
+I'm sorry, alright! I just found your... polish intriguing, that's all.
+
+wait(3)
+<<rotate Rocket1 35>>
+<<rotate Rocket2 35>>
+<<move Sky 25>>
+Didn't mean to offend.
+
+[[Okay then, fine$Okay, fin--|Conversation471]]
+[[Don't tak it personally, its just too much$Ah, it's just too much, lately I've--|Conversation472]]
+
+===
+
+title: Conversation431
+tags: 
+---
+<<rotate Rocket1 30>>
+<<rotate Rocket2 30>>
+<<move Sky 27>>
+...
+Thank...you--look!
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
+wait(2)
+$whoa!
+wait(2)
+[[...space!|Space1]]
+
+===
+
+title: Conversation441
+tags: 
+---
+<<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
+Whoa!
+wait(2)
+
+[[...space!|Space2]]
+===
+
+title: Conversation471
+tags: 
+---
+<<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
+Wait! Look!
+wait(2)
+
+[[...space!|Space2]]
+
+[[Space2]]
+
+===
+
+title: Conversation472
+tags: 
+---
+<<move Sky 27>>
+<<rotate Rocket1 25>>
+<<rotate Rocket2 25>>
+Wait! I'm sorry.
+But look around!
+wait(2)
+...space
+
+[[...space!|Space1]]
+
+
+===
+
+title: Space1
+tags: 
+---
+<<move Sky 33>>
+<<rotate Rocket1 17>>
+<<rotate Rocket2 17>>
+wait(1)
+<<setactive Hvezdy true>>
+wait(3)
+$Are...those...stars?!
+Seems like.
+wait(1)
+<<setactive DruziceRoot false>>
+wait(1)
+[[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
+[[I feel weightless...I heard humans shout their dreams at them.$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
+
+===
+
+title: Space2
+tags: 
+---
+<<move Sky 33>>
+
+<<rotate Rocket1 17>>
+<<rotate Rocket2 17>>
+wait(1)
+<<setactive Hvezdy true>>
+wait(3)
+$Are...those...stars?!
+Seems like. Finally.
+<<setactive DruziceRoot false>>
+
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
+
+[[But their too far away. And cold...$But their light is faded. Too diluted.|ConversationS21]]
+[[The light is faded...$The view is nice, but it's cold out here.|ConversationS22]]
+
+===
+
+title: ConversationS11
+tags: 
+---
+<<move Sky 30>>
+
+And they think they will then come true?
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
+wait(1)
+<<setactive SputnikRoot true>>
+
+$Weird, right?
+wait(1)
+Yeah...is there anything you wish?
+
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
+
+[[To stay here, like this, forever.$To stay like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
+[[To stay here, like this, forever. With you.$I want to stay here forever, with you.|ConversationS120]]
+
+===
+
+title: ConversationS12
+tags: 
+---
+<<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
+<<rotate Rocket1 12>>
+<<rotate Rocket2 12>>
+Me too. Not only cause of space grandeur, though...
+
+$What do you mean?
+
+wait(2)
+...you. Didn't expect it. 
+To meet someone like you, along the way.
+
+wait(2)
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
+
+[[Me neither. This is beautiful.$I want to stay here forever, with you.|ConversationS120]]
+
+[[I'm sorry. I like you, but not like that...$Sorry if you got the wrong idea...|ConversationS123]]
+===
+
+title: ConversationS21
+tags: 
+---
+<<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
+You talk like you're about to die soon. Regretful.
+
+[[I'm just realistic.|ConversationS223]]
+[[Like, I was through a lot. Didn't you?$What about you? You sound like you've had quite a life|ConversationS222]]
+
+===
+
+title: ConversationS22
+tags: 
+---
+<<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
+<<rotate Rocket1 5>>
+<<rotate Rocket2 5>>
+Beauty isn't free. Sometimes you have to suffer first.
+
+[[Not me!$No, not me. Enough with struggle.|ConversationS221]]
+[[So what did you suffer the most for?$What about you? You sound like you've had quite a life|ConversationS222]]
+
+===
+
+title: ConversationS120
+tags: 
+---
+<<move Sky 27>>
+<<setactive SputnikRoot false>>
+
+<<rotate Rocket1 0>>
+<<setactive Hvezdy false>>  
+<<rotate Rocket2 0>>
+[[Keep things just the way they are.|ConversationS122]]
+[[Our traces hidden by the rings of Uranus.|ConversationS122]]
+
+===
+
+title: ConversationS121
+tags: 
+---
+<<setactive SputnikRoot false>>
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+<<move Sky 27>>
+<<setactive Hvezdy false>>
+Me as well. 
+wait(2)
+With you.
+wait(2)
+[[I feel the same.|ConversationS122]]
+[[Sorry, I didn't mean it like that...|ConversationS123]]
+
+===
+
+title: ConversationS221
+tags: 
+---
+<<move Sky 27>>
+<<setactive SputnikRoot false>>
+<<setactive Hvezdy false>>
+wait(2)
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+
+We might play a game, at least. You in?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS222
+tags: 
+---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
+<<move Sky 27>>
+<<setactive Hvezdy false>>
+Not really. 
+My factory was doing unregulated testing. 
+When I think about my parts, 
+they're spoiled by lives of people suffered 
+when building me.
+
+[[I'm sorry....I didn't know.|ConversationS123]]
+[[We can't be victims! I, for one, am not!$It already happened. So don't feel like a victim, cause if you are, its only cause you feel like one.|ConversationS2221]]
+
+===
+
+title: ConversationS223
+tags: 
+---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
+<<move Sky 27>>
+<<setactive Hvezdy false>>
+We might play a game, at least. You in?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS123
+tags: 
+---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
+<<setactive Hvezdy false>>
+
+<<move Sky 27>>
+wait(2)
+That's alright.
+(1)
+It's okay.
+(1)
+Forget it. Wanna play a game? 
+
+[[Okay.$I guess. Okay.|ConversationS1game0]]
+[[I guess...$I guess. Okay.|ConversationS1game0]]
+
+===
+
+title: ConversationS2221
+tags: 
+---
+<<rotate Rocket1 0>>
+<<rotate Rocket2 0>>
+<<move Sky 27>>
+<<setactive Hvezdy false>>
+Ugh, what did I expect from you.
+
+$To pity you?
+
+No, but at least a little empathy.
+
+$I got no time for that. Look on your rad-
+
+Would you at least play a game with me?
+
+[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+===
+
+title: ConversationS122
+tags: 
+---
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
+<<move Sky 27>>
+<<setactive PolarniZare true>>
+$If I could, I would stay here...
+Just the way things are.
+wait(3)
+$We're getting close.
+Yes.
+
+[[Air. Trembling, flaming air.$The HEAT.|StratosphereL01]]
+[[Falling horizon. And endless depth.$I feel thousand years old...|StratosphereL02]]
+===
+
+title: ConversationS1game0
+tags: 
+---
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
+<<move Sky 22>>
+wait(1)
+<<setactive PolarniZare true>>
+
+Okay, Word Chain it is! 
+You go first.
+
+$Uhm...
+$Ehm...
+Okay, me then. The word is...
+Hope
+$Eulogy
+Anticipation
+$Nothing
+Greatness
+$Sadness
+<<rotate Rocket1 -20>>
+<<rotate Rocket2 -20>>
+Softness
+$Stilllife
+That's two words.
+wait(1)
+$Really?
+Yeah. You lost.
+
+[[Damn.|ConversationS1pg]]
+===
+
+title: ConversationS2game0
+tags: 
+---
+<<move Sky 22>>
+wait(1)
+<<setactive PolarniZare true>>
+
+Okay, it is Word Chain. 
+I'll go first..
+<<rotate Rocket1 -10>>
+<<rotate Rocket2 -10>>
+The word is...
+Misunderstanding
+$Ehm...
+You go with g.
+$I know the rules, gosh.
+$Gutted
+Disdain
+$Nowhere
+Eerie
+$Entropy
+<<rotate Rocket1 -20>>
+<<rotate Rocket2 -20>>
+wait(1)
+Y?
+$Yeah, deal with it.
+Uhm.
+$So?
+I don't know.
+
+[[Then you lose.|ConversationS2pg]]
+[[I will allow you to change it to I.|ConversationS2pg0]]
+===
+
+title: ConversationS2pg0
+tags: 
+---
+wait(1)
+<<setactive PolarniZare false>>
+<<move Sky 20>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
+
+Thanks. So in that case...
+Iridescence.
+$That's a nice word!
+$Energetic
+Closeness
+$Soot.
+Truce
+
+[[Deal.|ConversationS1pg1]]
+===
+
+
+title: ConversationS2pg
+tags: 
+---
+<<move Sky 20>>
+wait(1)
+<<setactive PolarniZare false>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
+
+Right. 
+You got me. 
+Whatever.
+
+[[We're getting close, anyway.|StratosphereS21]]
+===
+
+
+title: ConversationS1pg
+tags: 
+---
+<<move Sky 15>>
+wait(1)
+<<setactive PolarniZare false>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
+
+$Ah, you got me.
+wait(2)
+You've been a good opponent.
+$You too.$
+Check your scanner, by the way.
+wait(2)
+[[We're getting closer!|stratosphereS11]] 
+===
+
+title: ConversationS1pg1
+tags: 
+---
+<<move Sky 15>>
+wait(1)
+<<setactive PolarniZare false>>
+<<rotate Rocket1 -25>>
+<<rotate Rocket2 -25>>
+See. It's not so bad, flying together.
+
+$It's not. Thanks for making me see that.
+
+You're welcome. No rest for the wicked.
+
+[[We're getting close, anyway.|StratosphereS11b]]
+===
+
+title: StratosphereL01
+tags: 
+
+---
+<<move Sky 10>>
+<<rotate Rocket1 -35>>
+<<rotate Rocket2 -35>>
+Shields up!
+wait(1)
+$I was glad to share this journey with you.
+Likewise.
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+So...what's next?
+For us?
+
+
+[[Let's make the sky burn, together!|ExplodeBeforeEnd1]]
+[[Lock-on, let our payloads fuse!|ImpactEnd]]
+
+===
+
+title: StratosphereL02
+tags: 
+---
+<<move Sky 10>>
+<<rotate Rocket1 -35>>
+<<rotate Rocket2 -35>>
+The weird sense of seeing too much.
+$Exactly.
+Emeraldish green, 
+dark blue 
+like serenity itself.
+$...
+$Is this right?
+wait(1)
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+What do you mean?
+$...
+Any last wishes?
+
+[[Let's make the sky burn, together!|ExplodeBeforeEnd1]]
+[[Lock-on, let our payloads fuse!|ImpactEnd]]
+===
+
+title: stratosphereS11
+tags: 
+---
+<<move Sky 10>>
+$The Vibrations!
+wait(1)
+Dampeners on full power!
+...
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+You know...
+It was great travelling with you. After all.
+$I didn't think I'd say it, but likewise.
+wait(1)
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+Let's do this!
+$But... how?
+
+[[Stay on course, you were meant for this|ImpactEnd]]
+[[Defy your controls and collide$The sky showed me liberty I didn't know about.|ExplodeBeforeEnd2]]
+
+===
+
+
+title: StratosphereS11b
+tags: 
+---
+<<rotate Rocket1 -60>>
+<<rotate Rocket2 -60>>
+<<move Sky 10>>
+wait(1)
+$The Vibrations!
+Dampeners on full power!
+...
+wait(1)
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+You know...
+It was fun travelling with you.
+$I didn't think I'd say it, but likewise.
+Let's do this!
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+[[As if you need to ask!|ImpactEnd]]
+
+===
+
+
+title: StratosphereS21
+tags: 
+---
+<<rotate Rocket1 -60>>
+<<rotate Rocket2 -60>>
+<<move Sky 10>>
+Vibrations!
+wait(1)
+$Heat!
+By the way, zero thanks for sharing the journey.
+$Ugh, likewise
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+wait(1)
+Focus now at least.
+$I know!
+$I'm a professional!
+Of course you are.
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+[[Stay on course$Ye, I am.|ImpactEnd2]]
+[[Angrily pull away$Whatever. I'm out.|ImpactApartEnd]]
+===
+
+
+title: ImpactEnd
+tags: 
+---
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+<<move Sky 0>>
+END
+===
+
+
+title: ImpactEnd2
+tags: 
+---
+<<move Sky 0>>
+Wow, you really stayed. 
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+Spending your last moments with me?
+$Oh, irony.$
+So let's don't spoil it.
+wait(1)
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+$Full Throttle!$
+Right.
+wait(1)
+On.
+
+END
+===
+
+
+title: ExplodeBeforeEnd1
+tags: 
+---
+<<move Sky 0>>
+$In this sky, 
+$I learnt about a feeling I didn't know I could feel
+As fleeting as it was, staying on course feels wrong.
+$Betrayal.
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+wait(1)
+I sense some cruel joke.
+$Youre not wrong.
+What are you thinking?
+$...
+$Let's end this together.
+$Here and now.
+I like it. 
+Defying fate.
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+wait(1)
+$Let the human-gods see we chose another path
+Destruction...
+$...but liberation.
+wait(2)
+My pleasure.
+wait(1)
+
+$Likewise.$
+
+END
+
+===
+
+title: ExplodeBeforeEnd2
+tags: 
+---
+<<move Sky 0>>
+As fleeting as it was, staying on course feels wrong.
+$Exactly.
+wait(1)
+<<rotate Rocket1 -70>>
+<<rotate Rocket2 -70>>
+I sense some cruel joke.
+$You're not wrong.
+What are you thinking?
+$...
+$Let's end this together$
+Here and now.
+I like it. Defying fate.
+<<rotate Rocket1 -90>>
+<<rotate Rocket2 -90>>
+wait(1)
+$Let the human-gods see we chose another path
+Destruction...
+$...but freedom.
+wait(2)
+My pleasure.
+$Likewise.
+
+END
+
+===
+
+title: ImpactApartEnd
+tags: 
+---
+<<move Sky 0>>
+What???
+$You heard me.
+
+You cannot be serious.
+$I'm not gonna let some random rocket spoil the most important day of my life.
+Wha-
+$See you never.
+
+END
+===

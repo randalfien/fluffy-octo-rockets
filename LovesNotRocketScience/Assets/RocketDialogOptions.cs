@@ -16,14 +16,45 @@ public class RocketDialogOptions : MonoBehaviour
     private bool _optionsConfirmed = false;
     public string SelectedText { get; private set; }
 
-    public void SetOptions(IList<string> options)
-    {
-        if (options.Count < 2) return;
+    private IList<string> _savedOptions;
 
-        Text1.text = options[0];
-        Text2.text = options[1];
+    private bool IsOneAnswer;
+    
+    public void SetOptions(IList<string> options)
+    
+    {
+        _savedOptions = options;
+        if (options.Count < 2)
+        {
+            IsOneAnswer = true;
+            
+            Text1.text = GetOptionText(options[0]);
+            Text2.gameObject.SetActive(false);
+            Arrow1.SetActive(true);
+            Arrow2.SetActive(false);
+            return;
+        }
+
+     
+        
+        Text1.text = GetOptionText(options[0]);
+        Text2.text = GetOptionText(options[1]);
         Arrow1.SetActive(true);
         Arrow2.SetActive(false);
+    }
+
+    private string GetOptionText(string s)
+    {
+        if (s.Contains("$") == false) return s;
+
+        return s.Split('$')[0];
+    }
+    
+    private string GetReplyText(string s)
+    {
+        if (s.Contains("$") == false) return s;
+
+        return s.Split('$')[1];
     }
 
     public IEnumerator WaitForInput(OptionChooser optionChooser)
@@ -32,7 +63,7 @@ public class RocketDialogOptions : MonoBehaviour
 
         while (!_optionsConfirmed) yield return null;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.2f);
     }
 
     private void Update()
@@ -43,17 +74,19 @@ public class RocketDialogOptions : MonoBehaviour
             if (Arrow1.activeSelf)
             {
                 _optionsCallback(0);
-                SelectedText = Text1.text;
+                SelectedText = GetReplyText(_savedOptions[0]);
                 Text2.gameObject.SetActive(false);
             }
             else
             {
                 _optionsCallback(1);
-                SelectedText = Text2.text;
+                SelectedText = GetReplyText(_savedOptions[1]);
                 Text1.gameObject.SetActive(false);
             }          
         }
 
+        if (IsOneAnswer) return;
+        
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             if (Arrow1.activeSelf)

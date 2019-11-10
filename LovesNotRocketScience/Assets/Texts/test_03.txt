@@ -3,17 +3,13 @@ tags:
 colorID: 0
 position: 592,181
 ---
-Bob: What would you like?
--> A burger.
-    Bob: Nice. Enjoy!
-    [[AteABurger]]
--> A soda.
-    Bob: Yum!
-    [[DrankASoda]]
-Bob: Thanks for coming!
+What would you like?
+
+[[Go to the woods|AteABurger]]
+[[Go back to the city|DrankASoda]]
 ===
 
-title: AteABurger
+title: AteABurger 
 tags: 
 colorID: 0
 position: 387,487
