@@ -13,7 +13,7 @@ public class SceneSwitcher : MonoBehaviour
     public void SwitchScene(string valueval)
     {
                 MySpriteRenderer = GetComponent<SpriteRenderer>();
-                MySpriteRenderer.enabled = MySpriteRenderer.enabled;
+                MySpriteRenderer.enabled = !MySpriteRenderer.enabled;
                   StartCoroutine(FadeTo(1f, 2.5f));
     
         
