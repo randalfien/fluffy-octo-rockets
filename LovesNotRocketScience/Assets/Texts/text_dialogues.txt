@@ -4,7 +4,11 @@ tags:
 <<setactive Druzica true>>
 wait(4)
 <<move Sky 5>>
+<<rotate Rocket1 60>>
+<<rotate Rocket2 60>>
 Hey, you got a nice thrust fire!
+
+
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
 ===
@@ -12,7 +16,9 @@ Hey, you got a nice thrust fire!
 title: Conversation21
 tags: 
 ---
+<<rotate Rocket1 55>>
 <<move Sky 7>>
+<<rotate Rocket2 55>>
 I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
 wait(2)
@@ -25,7 +31,9 @@ wait(2)
 title: Conversation22
 tags: 
 ---
+<<rotate Rocket1 55>>
 <<move Sky 7>>
+<<rotate Rocket2 55>>
 Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
 <<move Sky 10>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
@@ -37,12 +45,15 @@ title: Conversation31
 tags:
 ---
 <<<move Sky 13>>
+<<rotate Rocket1 50>>
 Your confidence is remarkable. I still wonder where are we headed...
+<<rotate Rocket2 50>>
 <<<move Sky 15>>
 
 [[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
 [[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
-
+<<rotate Rocket1 47>>
+<<rotate Rocket2 47>>
 ===
 
 
@@ -50,9 +61,11 @@ Your confidence is remarkable. I still wonder where are we headed...
 title: Conversation32
 tags: 
 ---
-<<ove Sky 13>>
+<<move Sky 13>>
+<<rotate Rocket1 50>>
 There's nothing wrong about being a shy rocket. Shyness is actually quite attactive.
 <<move Sky 15>>
+<<rotate Rocket2 50>>
 [[Chuckles|Conversation43]]
 [[Chuckles, but ironically|Conversation44]]
 
@@ -62,9 +75,12 @@ title: Conversation33
 tags: 
 ---
 <<move Sky 13>>
+<<rotate Rocket1 50>>
+
 Yes! I heard rumors, it should be in our flight plan. 
 I sometimes feel alone in this world. Could help.
 <<move Sky 15>>
+<<rotate Rocket2 50>>
 wait(4)
 [[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about whats inside our payload.|Conversation45]]
 [[I suppose you have a theory about existence of god too...$I imagine you have something to say about God as well. Everybody does.|Conversation46]]
@@ -74,11 +90,13 @@ wait(4)
 title: Conversation34
 tags: 
 ---
+<<rotate Rocket1 50>>
 <<move Sky 13>>
 wait(3)
 Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
+<<rotate Rocket2 50>>
 wait(2)
-<move Sky 15>>
+<<move Sky 15>>
 [[I hope there're no unasked for compliments.|Conversation47]]
 [[Okay, fine$Okay, fin--|Conversation471]]
 
