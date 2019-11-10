@@ -1,7 +1,7 @@
 title: Conversation1
 tags: 
 ---
-<<setactive SputnikRoot true>>
+
 wait(4)
 <<move Sky 5>>
 <<rotate Rocket1 60>>
@@ -11,18 +11,22 @@ Hey, you got a nice thrust fire!
 
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
+
 ===
 
 title: Conversation21
 tags: 
 ---
+
 <<rotate Rocket1 55>>
 <<move Sky 7>>
+<<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
 I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
 wait(2)
 
+<<setactive CloudsUp false>>
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
 [[Insist on etiquette$Still no reason to go around talking like that.|Conversation34]]
 
@@ -33,9 +37,13 @@ tags:
 ---
 <<rotate Rocket1 55>>
 <<move Sky 7>>
+<<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
+wait(1)
 Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
 <<move Sky 10>>
+wait(1)
+<<setactive CloudsUp false>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
 [[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
 
@@ -123,9 +131,14 @@ tags:
 <<move Sky 20>>
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
+<<setactive DruziceRoot true>>
+wait(3)
 Same. We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
 <<rotate Rocket1 40>>
+wait(1)
+<<setactive DruziceRoot false>>
+
 <<rotate Rocket2 40>>
 [[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 
@@ -137,10 +150,14 @@ tags:
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
 <<move Sky 20>>
-wait(5)
+<<setactive DruziceRoot true>>
+wait(3)
 <<move Sky 25>>
 <<rotate Rocket1 40>>
+wait(1)
 <<rotate Rocket2 40>>
+<<setactive DruziceRoot false>>
+
 [[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 ===
 
@@ -150,12 +167,15 @@ tags:
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
 <<move Sky 20>>
+<setactive DruziceRoot true>>
 wait(5)
 <<move Sky 25>>
 <<rotate Rocket1 40>>
 <<rotate Rocket2 40>>
 Is... everything okay? Just a joke, you know. 
 wait(2)
+<<setactive DruziceRoot false>>
+
 [[Riiighhhtt.|Conversation441]]
 
 ===
@@ -165,10 +185,13 @@ tags:
 ---
 <<rotate Rocket1 45>>
 <<rotate Rocket2 45>>
+<<setactive DruziceRoot true>>
+wait(1)
 <<move Sky 20>>
 Sometimes I imagine it's full of plush toys, for children.
 
 wait(2)
+<<setactive DruziceRoot false>>
 $...
 <<move Sky 25>>
 <<rotate Rocket1 40>>
@@ -189,6 +212,7 @@ Hey, I'm not that per-
 <<move Sky 27>>
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
+
 [[Wait, look!|Space1]]
 	
 ===
@@ -224,8 +248,7 @@ Thank...you--look!
 <<rotate Rocket2 25>>
 wait(2)
 $whoa!
-(2)
-
+wait(2)
 [[...space!|Space1]]
 
 ===
@@ -237,6 +260,7 @@ tags:
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
 Whoa!
+wait(2)
 
 [[...space!|Space2]]
 ===
@@ -248,6 +272,7 @@ tags:
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
 Wait! Look!
+wait(2)
 
 [[...space!|Space2]]
 
@@ -263,8 +288,8 @@ tags:
 <<rotate Rocket2 25>>
 Wait! I'm sorry.
 But look around!
-
-... (space)
+wait(2)
+...space
 
 [[...space!|Space1]]
 
@@ -277,10 +302,14 @@ tags:
 <<move Sky 33>>
 <<rotate Rocket1 17>>
 <<rotate Rocket2 17>>
-wait(4)
+wait(1)
+<<setactive Hvezdy true>>
+wait(3)
 $Are...those...stars?!
 Seems like.
-
+wait(1)
+<<setactive DruziceRoot false>>
+wait(1)
 [[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
 [[I feel weightless...I heard humans shout their dreams at them.$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
 
@@ -293,9 +322,12 @@ tags:
 
 <<rotate Rocket1 17>>
 <<rotate Rocket2 17>>
-wait(4)
+wait(1)
+<<setactive Hvezdy true>>
+wait(3)
 $Are...those...stars?!
 Seems like. Finally.
+<<setactive DruziceRoot false>>
 
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
@@ -314,6 +346,7 @@ And they think they will then come true?
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
 wait(1)
+<<setactive SputnikRoot true>>
 
 $Weird, right?
 wait(1)
@@ -331,6 +364,8 @@ title: ConversationS12
 tags: 
 ---
 <<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
 Me too. Not only cause of space grandeur, though...
@@ -354,6 +389,8 @@ title: ConversationS21
 tags: 
 ---
 <<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
 <<rotate Rocket1 5>>
 <<rotate Rocket2 5>>
 You talk like you're about to die soon. Regretful.
@@ -367,6 +404,8 @@ title: ConversationS22
 tags: 
 ---
 <<move Sky 30>>
+<<setactive SputnikRoot true>>
+wait(2)
 <<rotate Rocket1 5>>
 <<rotate Rocket2 5>>
 Beauty isn't free. Sometimes you have to suffer first.
@@ -380,7 +419,10 @@ title: ConversationS120
 tags: 
 ---
 <<move Sky 27>>
+<<setactive SputnikRoot false>>
+
 <<rotate Rocket1 0>>
+<<setactive Hvezdy false>>  
 <<rotate Rocket2 0>>
 [[Keep things just the way they are.|ConversationS122]]
 [[Our traces hidden by the rings of Uranus.|ConversationS122]]
@@ -390,9 +432,11 @@ tags:
 title: ConversationS121
 tags: 
 ---
+<<setactive SputnikRoot false>>
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
 <<move Sky 27>>
+<<setactive Hvezdy false>>
 Me as well. 
 wait(2)
 With you.
@@ -406,6 +450,8 @@ title: ConversationS221
 tags: 
 ---
 <<move Sky 27>>
+<<setactive SputnikRoot false>>
+<<setactive Hvezdy false>>
 wait(2)
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
@@ -421,7 +467,9 @@ tags:
 ---
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
 <<move Sky 27>>
+<<setactive Hvezdy false>>
 Not really. 
 My factory was doing unregulated testing. 
 When I think about my parts, 
@@ -438,7 +486,9 @@ tags:
 ---
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
 <<move Sky 27>>
+<<setactive Hvezdy false>>
 We might play a game, at least. You in?
 
 [[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
@@ -450,6 +500,9 @@ tags:
 ---
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
+<<setactive SputnikRoot false>>
+<<setactive Hvezdy false>>
+
 <<move Sky 27>>
 wait(2)
 That's alright.
@@ -469,6 +522,7 @@ tags:
 <<rotate Rocket1 0>>
 <<rotate Rocket2 0>>
 <<move Sky 27>>
+<<setactive Hvezdy false>>
 Ugh, what did I expect from you.
 
 $To pity you?
@@ -489,6 +543,7 @@ tags:
 <<rotate Rocket1 -10>>
 <<rotate Rocket2 -10>>
 <<move Sky 27>>
+<<setactive PolarniZare true>>
 $If I could, I would stay here...
 Just the way things are.
 wait(3)
@@ -505,6 +560,8 @@ tags:
 <<rotate Rocket1 -10>>
 <<rotate Rocket2 -10>>
 <<move Sky 22>>
+wait(1)
+<<setactive PolarniZare true>>
 
 Okay, Word Chain it is! 
 You go first.
@@ -534,6 +591,8 @@ title: ConversationS2game0
 tags: 
 ---
 <<move Sky 22>>
+wait(1)
+<<setactive PolarniZare true>>
 
 Okay, it is Word Chain. 
 I'll go first..
@@ -565,6 +624,8 @@ I don't know.
 title: ConversationS2pg0
 tags: 
 ---
+wait(1)
+<<setactive PolarniZare false>>
 <<move Sky 20>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
@@ -585,6 +646,8 @@ title: ConversationS2pg
 tags: 
 ---
 <<move Sky 20>>
+wait(1)
+<<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
 
@@ -600,6 +663,8 @@ title: ConversationS1pg
 tags: 
 ---
 <<move Sky 15>>
+wait(1)
+<<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
 
@@ -616,6 +681,8 @@ title: ConversationS1pg1
 tags: 
 ---
 <<move Sky 15>>
+wait(1)
+<<setactive PolarniZare false>>
 <<rotate Rocket1 -25>>
 <<rotate Rocket2 -25>>
 See. It's not so bad, flying together.
