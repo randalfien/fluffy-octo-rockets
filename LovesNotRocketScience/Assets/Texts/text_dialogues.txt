@@ -4,6 +4,9 @@ tags:
 <<move Sky 5>>
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
+wait(9)
+wait(9)
+wait(9)
 Hey, you got a nice thrust fire!
 
 [[You think it's appropriate thing to say?|Conversation21]]
