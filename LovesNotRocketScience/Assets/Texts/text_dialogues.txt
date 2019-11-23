@@ -6,12 +6,11 @@ tags:
 <<rotate Rocket2 60>>
 wait(9)
 wait(9)
-wait(9)
+wait(7)
 Hey, you got a nice thrust fire!
 
 [[You think it's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
-
 ===
 
 title: Conversation21
@@ -22,6 +21,7 @@ tags:
 <<move Sky 7>>
 <<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
+<<setvalue Affection 25>>
 I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
 wait(2)
@@ -84,7 +84,6 @@ tags:
 ---
 <<move Sky 13>>
 <<rotate Rocket1 50>>
-
 Yes! I heard rumors, it should be in our flight plan. 
 I sometimes feel alone in this world. Could help.
 <<move Sky 15>>

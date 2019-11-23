@@ -12,7 +12,7 @@ public class RocketAffection : MonoBehaviour
 
     public float speed = 0.05f;
     
-    private void Start()
+    private void Awake()
     {
         _posLeftStart = RocketLeft.position;
         _posRightStart = RocketRight.position;
@@ -21,8 +21,12 @@ public class RocketAffection : MonoBehaviour
     [YarnCommand("setvalue")]
     public void SetAffection(string param)
     {
-        int dist = int.Parse(param);
-        RocketLeft.DOMove(_posLeftStart + dist*Vector3.right * speed, 5f).SetEase(Ease.InOutExpo);
-        RocketRight.DOMove(_posRightStart + dist*Vector3.left * speed, 5f).SetEase(Ease.InOutExpo);
+        Debug.Log("setting affection to " + param);
+        int dist = int.Parse(param)-4;
+        var targetLeftR = new Vector3(_posLeftStart.x + dist*speed,  _posLeftStart.y, _posLeftStart.z);
+        RocketLeft.DOMove(targetLeftR, 5f).SetEase(Ease.InOutBack);
+        
+        var targetRightR = new Vector3(_posRightStart.x - dist*speed,  _posRightStart.y, _posRightStart.z);
+        RocketRight.DOMove(targetRightR, 5f).SetDelay(1).SetEase(Ease.InOutBack);
     }
 }

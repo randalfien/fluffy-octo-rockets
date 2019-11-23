@@ -11,6 +11,8 @@ public class RocketDialogOptions : MonoBehaviour
     public GameObject Arrow1;
     public GameObject Arrow2;
 
+    public SpriteRenderer Background;
+    
     private OptionChooser _optionsCallback;
 
     private bool _optionsConfirmed = false;
@@ -39,6 +41,11 @@ public class RocketDialogOptions : MonoBehaviour
         
         Text1.text = GetOptionText(options[0]);
         Text2.text = GetOptionText(options[1]);
+        Text1.ForceMeshUpdate();
+        Text2.ForceMeshUpdate();
+
+        float maxTextW = Mathf.Max(Text1.textBounds.size.x, Text2.textBounds.size.x)+ 3.6f*2f;
+        Background.transform.localScale = new Vector3( maxTextW*6.5f , 17.24f,0f);
         Arrow1.SetActive(true);
         Arrow2.SetActive(false);
     }

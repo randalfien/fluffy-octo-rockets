@@ -8,9 +8,24 @@ public class DialogBubble : MonoBehaviour
     [SerializeField]
     private TextMeshPro TextField;
 
+    private string _text;
     public string Text
     {
-        set { TextField.text = value; }
+        set
+        {
+            _text = value;
+            StartCoroutine(PlayText());
+        }
+    }
+    
+    IEnumerator PlayText()
+    {
+        TextField.text = "";
+        foreach (char c in _text) 
+        {
+            TextField.text += c;
+            yield return null;
+        }
     }
     
     public TextMeshPro TextText
