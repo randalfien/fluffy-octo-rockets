@@ -21,7 +21,7 @@ tags:
 <<move Sky 7>>
 <<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
-<<setvalue Affection 25>>
+<<setvalue Affection 3>>
 I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
 wait(2)
@@ -874,7 +874,7 @@ $...but liberation.
 wait(2)
 My pleasure.
 wait(2)
-<<setvalue Affection 85>>
+<<setvalue Affection 25>>
 
 $Likewise.
 
@@ -908,7 +908,7 @@ $...but freedom.
 wait(2)
 My pleasure.
 $Likewise.
-<<setvalue Affection 85>>
+<<setvalue Affection 25>>
 
 <<switchscene SceneSwitcher happy>>
 
@@ -920,7 +920,7 @@ tags:
 <<move Sky 0>>
 What???
 $You heard me.
-<<setvalue Affection -100>>
+<<setvalue Affection 0>>
 You cannot be serious.
 $I'm not gonna let some random rocket spoil the most important day of my life.
 Wha-
