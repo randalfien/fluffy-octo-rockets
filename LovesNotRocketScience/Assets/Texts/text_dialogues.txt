@@ -246,7 +246,7 @@ Thank...you--look!
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
 wait(2)
-$whoa!
+$Whoa!
 wait(2)
 [[...space!|Space1]]
 
@@ -310,7 +310,7 @@ wait(2)
 <<setactive DruziceRoot false>>
 wait(2)
 [[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
-[[I feel weightless...I heard humans shout their dreams at them.$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
+[[I feel weightless, spectral...$I feel like I'm made out of weightless steel. Freefloating.|ConversationS12]]
 
 ===
 
@@ -505,9 +505,9 @@ tags:
 <<move Sky 27>>
 wait(2)
 That's alright.
-(1)
+wait(1)
 It's okay.
-(1)
+wait(1)
 Forget it. Wanna play a game? 
 
 [[Okay.$I guess. Okay.|ConversationS1game0]]
@@ -670,7 +670,7 @@ wait(2)
 $Ah, you got me.
 wait(2)
 You've been a good opponent.
-$You too.$
+$You too.
 Check your scanner, by the way.
 wait(2)
 [[We're getting closer!|stratosphereS11]] 
@@ -743,7 +743,7 @@ title: stratosphereS11
 tags: 
 ---
 <<move Sky 10>>
-$The Vibrations!
+$The vibrations!
 wait(2)
 Dampeners on full power!
 ...
@@ -756,7 +756,7 @@ wait(2)
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
 Let's do this!
-$But... how?
+$But...how?
 
 [[Stay on course, you were meant for this|ImpactEnd]]
 [[Defy your controls and collide$The sky showed me liberty I didn't know about.|ExplodeBeforeEnd2]]
@@ -771,7 +771,7 @@ tags:
 <<rotate Rocket2 -60>>
 <<move Sky 10>>
 wait(2)
-$The Vibrations!
+$The vibrations!
 Dampeners on full power!
 ...
 wait(2)
@@ -808,7 +808,7 @@ $I'm a professional!
 Of course you are.
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
-[[Stay on course$Ye, I am.|ImpactEnd2]]
+[[Stay on course$Yes, I am.|ImpactEnd2]]
 [[Angrily pull away$Whatever. I'm out.|ImpactApartEnd]]
 ===
 
@@ -831,12 +831,12 @@ Wow, you really stayed.
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 Spending your last moments with me?
-$Oh, irony.$
+$Oh, irony.
 So let's don't spoil it.
 wait(2)
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
-$Full Throttle!$
+$Full Throttle!
 Right.
 wait(2)
 On.
@@ -876,7 +876,7 @@ My pleasure.
 wait(2)
 <<setvalue Affection 85>>
 
-$Likewise.$
+$Likewise.
 
 <<switchscene SceneSwitcher happy>>
 
@@ -896,7 +896,7 @@ I sense some cruel joke.
 $You're not wrong.
 What are you thinking?
 $...
-$Let's end this together$
+$Let's end this together
 Here and now.
 I like it. Defying fate.
 <<rotate Rocket1 -90>>
