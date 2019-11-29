@@ -136,7 +136,7 @@ Same. We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
 <<rotate Rocket1 40>>
 wait(2)
-<<setactive DruziceRoot false>>
+
 
 <<rotate Rocket2 40>>
 [[Thanks. I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
@@ -155,8 +155,6 @@ wait(3)
 <<rotate Rocket1 40>>
 wait(2)
 <<rotate Rocket2 40>>
-<<setactive DruziceRoot false>>
-
 [[I like your wings. Stylish.$Your wings... good...are. Im sorry! You have nice wings, you know!|Conversation431]]
 ===
 
@@ -173,7 +171,6 @@ wait(5)
 <<rotate Rocket2 40>>
 Is... everything okay? Just a joke, you know. 
 wait(2)
-<<setactive DruziceRoot false>>
 
 [[Riiighhhtt.|Conversation441]]
 
@@ -241,6 +238,7 @@ tags:
 <<rotate Rocket1 30>>
 <<rotate Rocket2 30>>
 <<move Sky 27>>
+<<setactive DruziceRoot false>>
 ...
 Thank...you--look!
 <<rotate Rocket1 25>>
@@ -258,6 +256,7 @@ tags:
 <<move Sky 27>>
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
+<<setactive DruziceRoot false>>
 Whoa!
 wait(2)
 
