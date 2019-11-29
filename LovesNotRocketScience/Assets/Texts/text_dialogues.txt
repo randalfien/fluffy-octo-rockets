@@ -6,10 +6,10 @@ tags:
 <<rotate Rocket2 60>>
 wait(9)
 wait(9)
-wait(7)
-Hey, you got a nice thrust fire!
+wait(5)
+Hey, nice exhaust you got there!
 
-[[You think it's appropriate thing to say?|Conversation21]]
+[[You think that's appropriate thing to say?|Conversation21]]
 [[I guess I just love burning fuel|Conversation22]]
 ===
 
