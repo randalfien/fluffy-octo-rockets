@@ -26,14 +26,19 @@ public class RocketColor : MonoBehaviour
 
     public void TweenToPos(float pos)
     {
+        if (pos < _targetPos)
+        {
+            pos = 1 - pos;
+        }
         _targetPos = pos;
+        Debug.Log("target pos:" + pos);
     }
     
     void Update()
     {
         if (_pos < _targetPos)
         {
-            _pos += Time.deltaTime;
+            _pos += Time.deltaTime/100f;
             Clr = Gradient.Evaluate(_pos);
         }
         
