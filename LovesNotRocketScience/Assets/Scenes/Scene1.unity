@@ -15977,7 +15977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283e93d418f5d9a4db8ccdae75cd53d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DebugDisable: 0
+  DebugDisable: 1
   Time: 6
   Delay: 10
 --- !u!20 &519420031
@@ -52618,11 +52618,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4791740250289692894, guid: 70c56bef2bcae7e4d956a593fb3fc472,
-        type: 3}
-      propertyPath: m_Name
-      value: Rocket2
-      objectReference: {fileID: 0}
     - target: {fileID: 4066119508147907686, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52678,10 +52673,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 60
       objectReference: {fileID: 0}
-    - target: {fileID: 6869338010506270808, guid: 70c56bef2bcae7e4d956a593fb3fc472,
+    - target: {fileID: 4791740250289692894, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
+      propertyPath: m_Name
+      value: Rocket2
       objectReference: {fileID: 0}
     - target: {fileID: 5329917056675137074, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
@@ -52757,6 +52752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Gradient.ctime2
       value: 18890
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869338010506270808, guid: 70c56bef2bcae7e4d956a593fb3fc472,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}
@@ -80514,16 +80514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1006255846}
     m_Modifications:
-    - target: {fileID: 791664929630716935, guid: 85fb975ed79274642b8fd854a2b03c99,
-        type: 3}
-      propertyPath: m_Name
-      value: Particle System_HVEZDY
-      objectReference: {fileID: 0}
-    - target: {fileID: 791664929630716935, guid: 85fb975ed79274642b8fd854a2b03c99,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 791664929630716932, guid: 85fb975ed79274642b8fd854a2b03c99,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -80608,6 +80598,16 @@ PrefabInstance:
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime1
       value: 21395
+      objectReference: {fileID: 0}
+    - target: {fileID: 791664929630716935, guid: 85fb975ed79274642b8fd854a2b03c99,
+        type: 3}
+      propertyPath: m_Name
+      value: Particle System_HVEZDY
+      objectReference: {fileID: 0}
+    - target: {fileID: 791664929630716935, guid: 85fb975ed79274642b8fd854a2b03c99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85fb975ed79274642b8fd854a2b03c99, type: 3}
@@ -80734,10 +80734,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4791740250289692894, guid: 70c56bef2bcae7e4d956a593fb3fc472,
-        type: 3}
-      propertyPath: m_Name
-      value: Rocket1
+    - target: {fileID: 926289164, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fef5696e6f6c721469f353374ad1afc7, type: 2}
+    - target: {fileID: 926289164, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4066119508147907686, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
@@ -80794,28 +80797,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 50
       objectReference: {fileID: 0}
-    - target: {fileID: 6869338010506270808, guid: 70c56bef2bcae7e4d956a593fb3fc472,
+    - target: {fileID: 4791740250289692894, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
+      propertyPath: m_Name
+      value: Rocket1
       objectReference: {fileID: 0}
     - target: {fileID: 5329917055845226774, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 926289164, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: fef5696e6f6c721469f353374ad1afc7, type: 2}
-    - target: {fileID: 926289164, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6863694333494936742, guid: 70c56bef2bcae7e4d956a593fb3fc472,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 5329917056675137074, guid: 70c56bef2bcae7e4d956a593fb3fc472,
         type: 3}
@@ -80876,6 +80866,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Gradient.m_NumColorKeys
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863694333494936742, guid: 70c56bef2bcae7e4d956a593fb3fc472,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869338010506270808, guid: 70c56bef2bcae7e4d956a593fb3fc472,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c56bef2bcae7e4d956a593fb3fc472, type: 3}

@@ -4,13 +4,13 @@ tags:
 <<move Sky 5>>
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
-wait(9)
-wait(9)
-wait(5)
-Hey, nice exhaust you got there!
+//wait(9)
+//wait(9)
+//wait(5)
+Hey good-looking, loving your tail!
 
-[[You think that's appropriate thing to say?|Conversation21]]
-[[I guess I just love burning fuel|Conversation22]]
+[[Super inappropriate.|Conversation21]]
+[[Thanks, not too shabby yourself.|Conversation22]]
 ===
 
 title: Conversation21
@@ -28,7 +28,7 @@ wait(2)
 
 <<setactive CloudsUp false>>
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
-[[Insist on etiquette$Still no reason to go around talking like that.|Conversation34]]
+[[Show no mercy$No reason to go around talking like that.|Conversation34]]
 
 ===
 
@@ -41,12 +41,14 @@ tags:
 <<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
 wait(4)
-Ah, the scent of fresh air. No surprise exercise improves depression. But I hate smalltalk, our lives are too short. So what's your calling?
+Ah, the scent of fresh air. No wonder exercise improves depression. Anyway...
+I hate smalltalk. Our lives are too short.
+So what's your calling?
 <<move Sky 10>>
 wait(2)
 <<setactive CloudsUp false>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
-[[Be modest$Ugh, I'm not sur... I try to get by with what I have...you know.|Conversation32]]
+[[Be modest$Well, you know... I guess it's just a job.|Conversation32]]
 
 ===
 
@@ -55,12 +57,12 @@ tags:
 ---
 <<move Sky 13>>
 <<rotate Rocket1 50>>
-Your confidence is remarkable. I still wonder where are we headed...
+Your confidence is remarkable. Still, I wonder where are we headed...
 <<rotate Rocket2 50>>
 <<move Sky 15>>
 
-[[Hide you don't know either$Well who cares anyway. My goal is to complete the mission. Whatever it may be.|Conversation41]]
-[[Share existential angst$Me neither. I try not to think about it. Focus on way ahead.|Conversation42]]
+[[Hide you don't know either$Who cares anyway. My goal is to complete this mission. Whatever it may be.|Conversation41]]
+[[Share existential angst$Hm... So we beat on, boats against the current, borne back ceaselessly, into the past.|Conversation42]]
 <<rotate Rocket1 47>>
 <<rotate Rocket2 47>>
 ===
@@ -73,7 +75,7 @@ tags:
 <<move Sky 13>>
 <<rotate Rocket1 50>>
 <<setvalue Affection 14>>
-There's nothing wrong about being a shy rocket. Shyness is actually quite attactive.
+There's nothing wrong about being a shy rocket. Shyness is actually quite attractive.
 <<move Sky 15>>
 <<rotate Rocket2 50>>
 [[Chuckles|Conversation43]]
@@ -92,7 +94,7 @@ I sometimes feel alone in this world. Could help.
 <<rotate Rocket2 50>>
 wait(4)
 [[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about what's inside our payload.|Conversation45]]
-[[I imagine you have something to say about God, right?$I imagine you have something to say about God as well. Everybody does.|Conversation46]]
+[[So profound, w-o-w|Conversation46]]
 
 ===
 
@@ -135,7 +137,9 @@ tags:
 <<rotate Rocket2 45>>
 <<setactive DruziceRoot true>>
 wait(3)
-Same. We're alike. You and I. Nice polish by the way.
+Mood.
+Big mood.
+We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
 <<rotate Rocket1 40>>
 wait(2)
@@ -208,7 +212,7 @@ tags:
 <<rotate Rocket1 30>>
 <<rotate Rocket2 30>>
 <<move Sky 20>>
-Hey, I'm not that per-
+Hey, I'm not being pretenti-
 <<move Sky 27>>
 <<rotate Rocket1 25>>
 <<rotate Rocket2 25>>
@@ -232,7 +236,7 @@ wait(3)
 Didn't mean to offend.
 
 [[Okay then, fine$Okay, fin--|Conversation471]]
-[[Don't take it personally, its just too much$Ah, it's just too much, lately I've--|Conversation472]]
+[[Don't take it personally, it's just too much|Conversation472]]
 
 ===
 
@@ -314,8 +318,8 @@ Seems like.
 wait(2)
 <<setactive DruziceRoot false>>
 wait(2)
-[[Humans direct wishes to them...$I heard humans shout their dreams at them.|ConversationS11]]
-[[I feel weightless, spectral...$I feel like I'm made out of weightless steel. Free floating.|ConversationS12]]
+[[Some humans believe they guide their lives|ConversationS11]]
+[[I feel weightless, spectral...$I feel weightless. Just floating freely.|ConversationS12]]
 
 ===
 
@@ -336,8 +340,8 @@ Seems like. Finally.
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
 
-[[But they are too far away. And cold...$But they are too far away. And cold...|ConversationS21]]
-[[The light is faded...$The view is nice, but it's cold out here.|ConversationS22]]
+[[But they are too far away. And cold...|ConversationS21]]
+[[The light is faded and it's cold out here.|ConversationS22]]
 
 ===
 
@@ -346,20 +350,20 @@ tags:
 ---
 <<move Sky 30>>
 
-And they think they will then come true?
+Really? Typical organic intelligence. They wish they were that important.
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
 wait(2)
 <<setactive SputnikRoot true>>
 
-$Weird, right?
+$Humans and their silly wishes, right?
 wait(2)
 Yeah...is there anything you wish?
 
 <<rotate Rocket1 5>>
 <<rotate Rocket2 5>>
 
-[[To stay here, like this, forever.$To stay like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
+[[To stay here, like this, forever.$To stay here, like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
 [[To stay here, like this, forever. With you.$I want to stay here forever, with you.|ConversationS120]]
 
 ===
@@ -372,7 +376,7 @@ tags:
 wait(2)
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
-Me too. Not only cause of space grandeur, though...
+Me too. Not only 'cause of space grandeur, though...
 
 $What do you mean?
 
@@ -385,8 +389,7 @@ wait(2)
 <<rotate Rocket2 5>>
 
 [[Me neither. This is beautiful.$I want to stay here forever, with you.|ConversationS120]]
-
-[[I'm sorry. I like you, but not like that...$Sorry if you got the wrong idea...|ConversationS123]]
+[[I'm sorry. I like you, but not like that...|ConversationS123]]
 ===
 
 title: ConversationS21
@@ -459,8 +462,8 @@ wait(2)
 
 We can play a game at least. You in?
 
-[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
-[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Well, Okay.|ConversationS2game0]]
+[[Ugh, I guess.|ConversationS2game0]]
 ===
 
 title: ConversationS222
@@ -476,7 +479,7 @@ When I think about my parts, they're tainted
 by the suffering of many.
 
 [[I'm sorry....I didn't know.|ConversationS123]]
-[[We can't be victims! I, for one, am not!$It already happened. So don't feel like a victim, cause if you are, its only cause you feel like one.|ConversationS2221]]
+[[We can't be victims! I, for one, am not!$It already happened. So don't feel like a victim, 'cause if you are, it's only 'cause you feel like one.|ConversationS2221]]
 
 ===
 
@@ -489,8 +492,8 @@ tags:
 <<setactive Hvezdy false>>
 We can play a game at least. You in?
 
-[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
-[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Well, Okay.|ConversationS2game0]]
+[[Ugh, I guess.|ConversationS2game0]]
 ===
 
 title: ConversationS123
@@ -508,8 +511,8 @@ It's okay.
 wait(1)
 Forget it. Wanna play a game? 
 
-[[Okay.$I guess. Okay.|ConversationS1game0]]
-[[I guess...$I guess. Okay.|ConversationS1game0]]
+[[Okay.|ConversationS1game0]]
+[[I guess...|ConversationS1game0]]
 
 ===
 
@@ -530,8 +533,8 @@ $I got no time for that. Look on your rad-
 <<setvalue Affection 3>>
 Would you at least play a game with me?
 
-[[Well, Okay.$Uhm, I guess. Okay.|ConversationS2game0]]
-[[Ugh, I guess.$Uhm, I guess. Okay.|ConversationS2game0]]
+[[Well, Okay.|ConversationS2game0]]
+[[Ugh, I guess.|ConversationS2game0]]
 ===
 
 title: ConversationS122
@@ -638,9 +641,10 @@ Iridescence.
 $That's a nice word!
 $Energetic
 Closeness
+wait(1)
 $Soot.
+wait(1)
 Truce
-
 [[Deal.|ConversationS1pg1]]
 ===
 
@@ -768,7 +772,7 @@ Let's do this!
 $But...how?
 
 [[Stay on course, you were meant for this|ImpactEnd]]
-[[Defy your controls and collide$The sky showed me liberty I didn't know about.|ExplodeBeforeEnd2]]
+[[Defy your programming. Let's collide$Defy your programming. Let's collide. Liberty!|ExplodeBeforeEnd2]]
 
 ===
 
@@ -870,8 +874,6 @@ $Betrayal.
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 wait(2)
-I sense some cruel joke.
-$Youre not wrong.
 What are you thinking?
 $...
 $Let's end this together.
@@ -906,8 +908,6 @@ $Exactly.
 wait(2)
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
-I sense some cruel joke.
-$You're not wrong.
 What are you thinking?
 $...
 $Let's end this together
