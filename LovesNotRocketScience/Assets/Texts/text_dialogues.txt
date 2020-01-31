@@ -364,7 +364,7 @@ Yeah...is there anything you wish?
 <<rotate Rocket2 5>>
 
 [[To stay here, like this, forever.$To stay here, like this, forever. Among UV rays and glimpses of distant nebulas.|ConversationS121]]
-[[To stay here, like this, forever. With you.$I want to stay here forever, with you. Keep hidden by the rings of gas giants.|ConversationS120]]
+[[To stay here, like this, forever. With you.$I want to stay here forever, with you. In the shadows of gas giants.|ConversationS120]]
 
 ===
 
@@ -403,7 +403,7 @@ wait(2)
 You talk like you're about to die soon. Regretful.
 
 [[I'm just realistic.|ConversationS223]]
-[[Like, I was through a lot. Weren't you?$What about you? You sound like you've had quite a life|ConversationS222]]
+[[Like, I was through a lot. Weren't you?|ConversationS222]]
 
 ===
 
@@ -417,8 +417,8 @@ wait(2)
 <<rotate Rocket2 5>>
 Beauty isn't free. Sometimes you have to suffer first.
 
-[[Not me!$No, not me. Enough with struggle.|ConversationS221]]
-[[So what did you suffer the most for?$What about you? You sound like you've had quite a life|ConversationS222]]
+[[Not me!$Not me! Enough with struggle.|ConversationS221]]
+[[So what did you suffer the most for?|ConversationS222]]
 
 ===
 
@@ -478,8 +478,8 @@ There were many bad things in the factory where I was made.
 When I think about my parts, they're tainted
 by the suffering of many.
 
-[[I'm sorry....I didn't know.|ConversationS123]]
-[[We can't be victims! I, for one, am not!$It already happened. So don't feel like a victim, 'cause if you are, it's only 'cause you feel like one.|ConversationS2221]]
+[[You're sorry$I'm sorry....I didn't know.|ConversationS123]]
+[[You're strong and not sorry$It already happened. So don't feel like a victim, 'cause if you are, it's only 'cause you feel like one. I, for one, am not|ConversationS2221]]
 
 ===
 
@@ -550,8 +550,8 @@ wait(3)
 $We're getting close.
 Yes.
 
-[[Air. Trembling, flaming air.$The HEAT.|StratosphereL01]]
-[[Falling horizon. And endless depth.$I feel a thousand years old...|StratosphereL02]]
+[[Air. Trembling, flaming air.$Air. Trembling, flaming air. The HEAT.|StratosphereL01]]
+[[Falling horizon. And endless depth.$[Falling horizon. And endless depth. I feel a thousand years old...|StratosphereL02]]
 ===
 
 title: ConversationS1game0
