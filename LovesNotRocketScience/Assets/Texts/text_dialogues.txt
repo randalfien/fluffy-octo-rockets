@@ -551,7 +551,7 @@ $We're getting close.
 Yes.
 
 [[Air. Trembling, flaming air.$Air. Trembling, flaming air. The HEAT.|StratosphereL01]]
-[[Falling horizon. And endless depth.$[Falling horizon. And endless depth. I feel a thousand years old...|StratosphereL02]]
+[[Falling horizon. And endless depth.$Falling horizon. And endless depth. I feel a thousand years old...|StratosphereL02]]
 ===
 
 title: ConversationS1game0
