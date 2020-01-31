@@ -4,9 +4,9 @@ tags:
 <<move Sky 5>>
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
-//wait(9)
-//wait(9)
-//wait(5)
+wait(9)
+wait(9)
+wait(5)
 Hey good-looking, loving your tail!
 
 [[Super inappropriate.|Conversation21]]
