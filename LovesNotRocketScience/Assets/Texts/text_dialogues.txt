@@ -62,7 +62,7 @@ Your confidence is remarkable. Still, I wonder where are we headed...
 <<move Sky 15>>
 
 [[Hide you don't know either$Who cares anyway. My goal is to complete this mission. Whatever it may be.|Conversation41]]
-[[Share existential angst$Hm... So we beat on, boats against the current, borne back ceaselessly, into the past.|Conversation42]]
+[[Share existential angst$So... we beat on, boats against the current, borne back ceaselessly, into the past.|Conversation42]]
 <<rotate Rocket1 47>>
 <<rotate Rocket2 47>>
 ===
@@ -177,7 +177,7 @@ wait(5)
 <<move Sky 25>>
 <<rotate Rocket1 40>>
 <<rotate Rocket2 40>>
-Is... everything okay? Just a joke, you know. 
+Is... everything okay? Just a joke!
 wait(2)
 
 [[Riiighhhtt.|Conversation441]]
@@ -319,7 +319,7 @@ wait(2)
 <<setactive DruziceRoot false>>
 wait(2)
 [[Some humans believe they guide their lives|ConversationS11]]
-[[I feel weightless, spectral...$I feel weightless. Just floating freely.|ConversationS12]]
+[[I feel weightless, spectral...|ConversationS12]]
 
 ===
 
@@ -341,7 +341,7 @@ Seems like. Finally.
 <<rotate Rocket2 12>>
 
 [[But they are too far away. And cold...|ConversationS21]]
-[[The light is faded and it's cold out here.|ConversationS22]]
+[[The light is faded, though...|ConversationS22]]
 
 ===
 
@@ -363,8 +363,8 @@ Yeah...is there anything you wish?
 <<rotate Rocket1 5>>
 <<rotate Rocket2 5>>
 
-[[To stay here, like this, forever.$To stay here, like this, forever. UV rays and glimpses of distant nebulas.|ConversationS121]]
-[[To stay here, like this, forever. With you.$I want to stay here forever, with you.|ConversationS120]]
+[[To stay here, like this, forever.$To stay here, like this, forever. Among UV rays and glimpses of distant nebulas.|ConversationS121]]
+[[To stay here, like this, forever. With you.$I want to stay here forever, with you. Keep hidden by the rings of gas giants.|ConversationS120]]
 
 ===
 
