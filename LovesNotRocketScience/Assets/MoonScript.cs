@@ -17,7 +17,8 @@ public class MoonScript : MonoBehaviour
         Sprite.color = new Color(1,1,1,0);
         Sprite.DOFade(0.82f, TimeFadeIn).SetDelay(DelayFade).SetEase(Ease.InOutCubic);
 
-        var halfwid = Camera.main.orthographicSize * Screen.width / Screen.height;
+        var halfwid = 6.895873f * Screen.width / Screen.height;
+        Debug.Log("halfwid "+halfwid);
         var targetX = -halfwid + 3f;
         transform.localPosition = new Vector3(targetX ,transform.localPosition.y, transform.localPosition.z );
         transform.DOLocalMoveX(targetX-8f, TimeMoveY-DelayX).SetDelay(DelayX+DelayFade).SetEase(Ease.InExpo );

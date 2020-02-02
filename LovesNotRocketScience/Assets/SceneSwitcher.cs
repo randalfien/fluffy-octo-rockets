@@ -12,30 +12,30 @@ public class SceneSwitcher : MonoBehaviour
     
     public void SwitchScene(string valueval)
     {
-                MySpriteRenderer = GetComponent<SpriteRenderer>();
-                MySpriteRenderer.enabled = !MySpriteRenderer.enabled;
-                  StartCoroutine(FadeTo(1f, 2.5f));
-    
-        
-        if (valueval == "happy")
-        {
-            Invoke("SwitchHappy",6f);
-        }
-        else
-        {
-            Invoke("SwitchSad",6f); 
-        }
+                  StartCoroutine(FadeTo(1f, 2.5f, valueval));
     }
 
-IEnumerator FadeTo(float aValue, float aTime)
+IEnumerator FadeTo(float aValue, float aTime, string val)
      {
-         yield return new WaitForSeconds(0.8f);
-         float alpha = gameObject.GetComponent<SpriteRenderer>().color.a;
+         yield return new WaitForSeconds(2.5f);
+         MySpriteRenderer = GetComponent<SpriteRenderer>();
+         MySpriteRenderer.enabled = true;
+         float alpha = 0;
          for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
          {
              Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
              gameObject.GetComponent<SpriteRenderer>().color = newColor;
              yield return null;
+         }
+         
+                 
+         if (val == "happy")
+         {
+             SwitchHappy();
+         }
+         else
+         {
+             SwitchSad(); 
          }
      }
 

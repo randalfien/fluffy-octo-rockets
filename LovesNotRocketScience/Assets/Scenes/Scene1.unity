@@ -57651,7 +57651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961933159}
   m_LocalRotation: {x: -0.04595168, y: 0.9981593, z: -0.013290148, w: -0.03728019}
-  m_LocalPosition: {x: 15.6, y: -43.3, z: 9.084999}
+  m_LocalPosition: {x: -0.6, y: -44, z: 9.084999}
   m_LocalScale: {x: 1.3721733, y: 1.2377787, z: 1.0497146}
   m_Children:
   - {fileID: 1125817885}
@@ -57686,7 +57686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4eb658c89b3fa34ebdd63a9fe12d44c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {x: 14.71, y: 6, z: -13}
+  Target: {x: -1.02, y: 6, z: -13}
   Time: 1.8
 --- !u!1 &972820651
 GameObject:
@@ -70327,7 +70327,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1528957374}
   - component: {fileID: 1528957373}
-  - component: {fileID: 1528957372}
   m_Layer: 1
   m_Name: Moon
   m_TagString: Untagged
@@ -70335,25 +70334,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1528957372
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528957371}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e391a5365d67f3943b10a5357c692670, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1528957373
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -26,7 +26,6 @@ tags:
 <<setvalue Affection 3>>
 I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
-wait(1)
 
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
 [[Show no mercy$That's no reason to make me feel uncomfortable like that.|Conversation34]]
@@ -106,7 +105,8 @@ tags:
 <<move Sky 13>>
 <<setvalue Affection 0>>
 wait(3)
-Okay, I'm sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
+Okay, I'm sorry. But we're sharing trajectories, so let's not outright hate each other, okay?
+I've heard there's peace in space.
 <<rotate Rocket2 50>>
 wait(2)
 <<move Sky 15>>
@@ -232,7 +232,7 @@ tags:
 <<rotate Rocket2 30>>
 <<setvalue Affection 3>>
 <<move Sky 20>>
-I said I'm sorry, alright? I just found your... polish intriguing, that's all.
+I said I'm sorry, alright? I just thought that your... polish is intriguing, that's all.
 wait(3)
 <<rotate Rocket1 35>>
 <<rotate Rocket2 35>>
@@ -897,7 +897,7 @@ $...but liberation.
 wait(2)
 My pleasure.
 wait(2)
-<<setvalue Affection 25>>
+<<setvalue Affection 29>>
 
 $Likewise.
 
@@ -931,7 +931,7 @@ $...but freedom.
 wait(2)
 My pleasure.
 $Likewise.
-<<setvalue Affection 25>>
+<<setvalue Affection 29>>
 
 <<switchscene SceneSwitcher happy>>
 

@@ -36,6 +36,10 @@ public class DialogBubble : MonoBehaviour
         {
             TextField.text += c;
             yield return null;
+            if (c == '.')
+            {
+                yield return new WaitForSeconds(0.4f);
+            }
         }
 
         Audio.DOFade(0,0.3f);
