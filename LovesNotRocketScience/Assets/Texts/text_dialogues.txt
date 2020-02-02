@@ -29,7 +29,7 @@ I'm just glad I met you, flying looks like a lonely job.
 wait(1)
 
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
-[[Show no mercy$That's no reason to me feel uncomfortable like that.|Conversation34]]
+[[Show no mercy$That's no reason to make me feel uncomfortable like that.|Conversation34]]
 
 ===
 
@@ -42,7 +42,7 @@ tags:
 <<setactive CloudsUp true>>
 <<rotate Rocket2 55>>
 wait(4)
-Ah, the scent of fresh air. No wonder exercise improves depression. Anyway...
+Ah, love the fresh air. No wonder exercise improves depression. Anyway...
 I hate smalltalk. Our lives are too short.
 So what's your calling?
 <<move Sky 10>>
@@ -61,8 +61,8 @@ I admire your confidence. Still, I wonder where are we headed...
 <<rotate Rocket2 50>>
 <<move Sky 15>>
 
-[[Hide you don't know either$Can't wait to get there. To complete the mission. Whatever it may be.|Conversation41]]
-[[Share existential angst$So... we beat on, boats against the current, borne back ceaselessly, into the past.|Conversation42]]
+[[Hide you don't know either$Yeah, can't wait to get there. To complete the mission. Whatever it may be.|Conversation41]]
+[[Share existential angst$We beat on, boats against the current, borne back ceaselessly, into the past.|Conversation42]]
 <<rotate Rocket1 47>>
 <<rotate Rocket2 47>>
 ===
@@ -88,13 +88,14 @@ tags:
 ---
 <<move Sky 13>>
 <<rotate Rocket1 50>>
-Yes! I heard rumors, it should be in our flight plan. 
-I sometimes feel alone in this world. Could help.
+Yes! Tasting the big emptiness first-hand!
+wait(1)
+Sometimes I feel pretty alone in this world. This could help.
 <<move Sky 15>>
 <<rotate Rocket2 50>>
 wait(4)
-[[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I dreamt about what's inside our payload.|Conversation45]]
-[[So profound, w-o-w|Conversation46]]
+[[Huh, daydreaming. My favorite hobby.$Haha, daydreaming, my favorite hobby. Last night, I was dreaming about our payload.|Conversation45]]
+[[You're so profound, w-o-w|Conversation46]]
 
 ===
 
@@ -204,7 +205,7 @@ $...
 <<rotate Rocket1 40>>
 <<rotate Rocket2 40>>
 wait(2)
-[[I'd like that. But I worry it's not true.|Space1]]
+[[I'd like that. But I worry that it's not true.|Space1]]
 [[Maybe one day...|Space1]]
 
 ===
@@ -322,7 +323,7 @@ wait(2)
 <<setactive DruziceRoot false>>
 wait(2)
 [[Some humans believe they guide their lives.|ConversationS11]]
-[[I feel weightless, spectral...|ConversationS12]]
+[[I feel weightless, lightheaded...|ConversationS12]]
 
 ===
 
@@ -366,8 +367,8 @@ Yeah...is there anything you wish?
 <<rotate Rocket1 5>>
 <<rotate Rocket2 5>>
 
-[[To stay here, like this, forever.$To stay here, like this, forever. Among UV rays and glimpses of distant nebulas.|ConversationS121]]
-[[To stay here, like this, forever. With you.$I want to stay here forever, with you. In the shadows of gas giants.|ConversationS120]]
+[[To stay here, like this, forever.$To stay here, like this, forever. Among the gamma rays and glimpses of distant nebulas.|ConversationS121]]
+[[To stay here, like this, forever. With you.$I want to stay here forever, with you. In the shadows of the gas giants.|ConversationS120]]
 
 ===
 
@@ -405,7 +406,7 @@ wait(2)
 <<rotate Rocket2 5>>
 You talk like you're about to die soon. Regretful.
 
-[[I'm just realistic.|ConversationS223]]
+[[I'm just being realistic.|ConversationS223]]
 [[Like, I was through a lot. Weren't you?|ConversationS222]]
 
 ===
@@ -420,7 +421,7 @@ wait(2)
 <<rotate Rocket2 5>>
 Beauty isn't free. Sometimes you have to suffer first.
 
-[[Not me!$Not me! Enough with struggle.|ConversationS221]]
+[[Not me!$Not me! Enough with the struggle.|ConversationS221]]
 [[So what did you suffer the most for?|ConversationS222]]
 
 ===
@@ -554,7 +555,7 @@ $We're getting close.
 Yes.
 
 [[Air. Trembling, flaming air.$Air. Trembling, flaming air. The HEAT.|StratosphereL01]]
-[[Falling horizon. And endless depth.$Falling horizon. And endless depth. I feel a thousand years old...|StratosphereL02]]
+[[Falling horizon. And endless depth.$Falling horizon. And endless depth. I feel ageless...|StratosphereL02]]
 ===
 
 title: ConversationS1game0
@@ -798,7 +799,7 @@ wait(2)
 You know...
 It was fun travelling with you.
 $I didn't think I'd say it, but likewise.
-Let's do this!
+Let's do this! Ready?
 <<setactive ScreenShake true>>
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
@@ -849,7 +850,7 @@ title: ImpactEnd2
 tags: 
 ---
 <<move Sky 0>>
-Wow, you really stayed. 
+Wow, you actually stayed. 
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 Spending your last moments with me?
@@ -858,7 +859,7 @@ So let's don't spoil it.
 wait(2)
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
-$Full Throttle!
+$Full speed ahead!
 Right.
 wait(2)
 On.
@@ -873,9 +874,9 @@ tags:
 ---
 <<move Sky 0>>
 $In this sky, 
-$I learnt about a feeling I didn't know I could feel
-As fleeting as it was, staying on course feels wrong.
-$Betrayal.
+$I learnt about a feeling I didn't know I could feel, as fleeting as it was.
+Staying on course feels wrong.
+$A betrayal.
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
 wait(2)
