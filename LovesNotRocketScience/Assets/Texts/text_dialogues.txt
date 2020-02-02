@@ -5,8 +5,8 @@ tags:
 <<rotate Rocket1 60>>
 <<rotate Rocket2 60>>
 <<setactive ShakeStart true>>
-//wait(9)
-//wait(9)
+wait(9)
+wait(9)
 wait(5)
 Hey good-looking, loving your tail!
 <<setactive CloudsStart true>>

@@ -16,8 +16,8 @@ public class Screenshake : MonoBehaviour
     {
         if (isStart)
         {
-            Camera1.DOShakePosition(9f, Vector3.one * Strength, 35, 90F);
-            Camera2.DOShakePosition(9f, Vector3.one * Strength, 35, 90F);
+            Camera1.DOShakePosition(11f, Vector3.one * Strength, 35, 90F);
+            Camera2.DOShakePosition(11f, Vector3.one * Strength, 35, 90F);
         }
         else
         {

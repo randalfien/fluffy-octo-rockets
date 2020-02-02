@@ -35082,7 +35082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283e93d418f5d9a4db8ccdae75cd53d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DebugDisable: 1
+  DebugDisable: 0
   Time: 6
   Delay: 10
 --- !u!20 &519420031
