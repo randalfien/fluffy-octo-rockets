@@ -1,5 +1,6 @@
 ﻿ using System.Collections;
  using System.Collections.Generic;
+ using DG.Tweening;
  using UnityEngine;
  using UnityEngine.SceneManagement;
 using Yarn.Unity;
@@ -7,15 +8,21 @@ using Yarn.Unity;
 public class EndSceneFadeIn : MonoBehaviour
 {
 
-        public float minimum = 0.0f;
-         public float maximum = 1f;
-         public float duration = 5.0f;
-         private float startTime;
-         public SpriteRenderer sprite;
-         void Start() {
-             startTime = Time.time;
-         }
-         void Update() {
-             float t = (Time.time - startTime) / duration;
-             sprite.color = new Color(1f,1f,1f,Mathf.SmoothStep(minimum, maximum, t));        }
-     }
+    public SpriteRenderer sprite;
+
+    void Start()
+    {
+        StartCoroutine("Flash");
+    }
+
+    private IEnumerator Flash()
+    {
+        yield return new WaitForSeconds(0.42f);
+        sprite.DOFade(0.7f, 0.5f).SetEase(Ease.InCubic);
+        yield return new WaitForSeconds(0.42f);
+        sprite.DOKill();
+        sprite.color = Color.white;
+        sprite.DOFade(0f, 1.2f).SetEase(Ease.InCubic);
+    }
+
+}

@@ -29,7 +29,7 @@ I'm just glad I met you, flying looks like a lonely job.
 wait(1)
 
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
-[[Show no mercy$No reason to go around talking like that.|Conversation34]]
+[[Show no mercy$That's no reason to me feel uncomfortable like that.|Conversation34]]
 
 ===
 
@@ -105,11 +105,11 @@ tags:
 <<move Sky 13>>
 <<setvalue Affection 0>>
 wait(3)
-Okay, you got me. Sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
+Okay, I'm sorry. But we're sharing trajectories, so let's not outright hate each other, okay? I heard there's peace in space.
 <<rotate Rocket2 50>>
 wait(2)
 <<move Sky 15>>
-[[I hope there're no unasked for compliments.|Conversation47]]
+[[No more catcalling, alright?|Conversation47]]
 [[Okay, fine$Okay, fin--|Conversation471]]
 
 
@@ -141,6 +141,7 @@ tags:
 wait(3)
 Mood.
 Big mood.
+wait(1)
 We're alike. You and I. Nice polish by the way.
 <<move Sky 25>>
 <<rotate Rocket1 40>>
@@ -230,7 +231,7 @@ tags:
 <<rotate Rocket2 30>>
 <<setvalue Affection 3>>
 <<move Sky 20>>
-I'm sorry, alright! I just found your... polish intriguing, that's all.
+I said I'm sorry, alright? I just found your... polish intriguing, that's all.
 wait(3)
 <<rotate Rocket1 35>>
 <<rotate Rocket2 35>>
@@ -320,7 +321,7 @@ Seems like.
 wait(2)
 <<setactive DruziceRoot false>>
 wait(2)
-[[Some humans believe they guide their lives|ConversationS11]]
+[[Some humans believe they guide their lives.|ConversationS11]]
 [[I feel weightless, spectral...|ConversationS12]]
 
 ===
@@ -378,7 +379,7 @@ tags:
 wait(2)
 <<rotate Rocket1 12>>
 <<rotate Rocket2 12>>
-Me too. Not only 'cause of space grandeur, though...
+Me too. Not only because of space grandeur, though...
 
 $What do you mean?
 
@@ -714,7 +715,7 @@ tags:
 <<rotate Rocket2 -35>>
 Shields up!
 wait(2)
-$I was glad to share this journey with you.
+$I was glad to share this brief journey with you.
 Likewise.
 <<setvalue Affection 14>>
 <<rotate Rocket1 -70>>

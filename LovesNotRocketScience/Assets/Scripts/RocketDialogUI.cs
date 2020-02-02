@@ -50,6 +50,7 @@ public class RocketDialogUI : DialogueUIBehaviour
 
         var bubble = Instantiate(BubblePrefab);
         bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
+        bubble.GetComponent<DialogBubble>().Type = 2;
         if (TextColor.grayscale > 0.65f)
         {
             bubble.GetComponentInChildren<TextMeshPro>().DOColor(Color.white, 2f);
@@ -111,6 +112,7 @@ public class RocketDialogUI : DialogueUIBehaviour
         }
         
         var bubble = Instantiate(BubblePrefab);
+        bubble.GetComponent<DialogBubble>().Type = 1;
         bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
         if (TextColor.grayscale > 0.65f)
         {

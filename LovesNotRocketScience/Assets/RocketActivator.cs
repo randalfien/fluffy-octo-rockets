@@ -12,6 +12,11 @@ public class RocketActivator : MonoBehaviour
     public void SetObjectActive(string valueval)
     {
         Debug.Log("setting " + gameObject.name + " active:" + valueval);
+        if (transform.childCount < 1)
+        {
+            Debug.Log("object already destroyed");
+            return;
+        }
         if (valueval == "true")
         {
             transform.GetChild(0).gameObject.SetActive(true);

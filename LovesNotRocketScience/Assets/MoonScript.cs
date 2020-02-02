@@ -20,7 +20,7 @@ public class MoonScript : MonoBehaviour
         var halfwid = Camera.main.orthographicSize * Screen.width / Screen.height;
         var targetX = -halfwid + 3f;
         transform.localPosition = new Vector3(targetX ,transform.localPosition.y, transform.localPosition.z );
-        transform.DOLocalMoveX(-16f+7.3f-targetX, TimeMoveY-DelayX).SetDelay(DelayX+DelayFade).SetEase(Ease.InExpo );
+        transform.DOLocalMoveX(targetX-8f, TimeMoveY-DelayX).SetDelay(DelayX+DelayFade).SetEase(Ease.InExpo );
         transform.DOLocalMoveY(8f, TimeMoveY).SetDelay(DelayFade).SetEase(Ease.InQuad);
     }
 }
