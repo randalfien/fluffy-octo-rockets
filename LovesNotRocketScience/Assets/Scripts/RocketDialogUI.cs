@@ -50,6 +50,15 @@ public class RocketDialogUI : DialogueUIBehaviour
 
         var bubble = Instantiate(BubblePrefab);
         bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
+        if (TextColor.grayscale > 0.65f)
+        {
+            bubble.GetComponentInChildren<TextMeshPro>().DOColor(Color.white, 2f);
+        }
+        else
+        {
+            bubble.GetComponentInChildren<TextMeshPro>().DOColor(Color.black, 2f);
+        }
+        
         if (line.text[0] == '$')
         {
             bubble.GetComponent<DialogBubble>().Text = line.text.Substring(1);
@@ -103,6 +112,15 @@ public class RocketDialogUI : DialogueUIBehaviour
         
         var bubble = Instantiate(BubblePrefab);
         bubble.GetComponentInChildren<TextMeshPro>().color = TextColor;
+        if (TextColor.grayscale > 0.65f)
+        {
+            bubble.GetComponentInChildren<TextMeshPro>().DOColor(Color.white, 2f);
+        }
+        else
+        {
+            bubble.GetComponentInChildren<TextMeshPro>().DOColor(Color.black, 2f);
+        }
+
         bubble.GetComponent<DialogBubble>().Text = optionsScript.SelectedText;
         bubble.transform.position = Point2.position;
         

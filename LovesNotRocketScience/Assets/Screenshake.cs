@@ -9,10 +9,20 @@ public class Screenshake : MonoBehaviour
     public Camera Camera2;
 
     public float Strength = 1f;
+
+    public bool isStart;
     // Start is called before the first frame update
     void Start()
     {
-        Camera1.DOShakePosition(145f, Vector3.one * Strength, 15, 90F, false);
-        Camera2.DOShakePosition(145f, Vector3.one * Strength, 15, 90F, false);
+        if (isStart)
+        {
+            Camera1.DOShakePosition(9f, Vector3.one * Strength, 35, 90F);
+            Camera2.DOShakePosition(9f, Vector3.one * Strength, 35, 90F);
+        }
+        else
+        {
+            Camera1.DOShakePosition(145f, Vector3.one * Strength, 20, 90F, false);
+            Camera2.DOShakePosition(145f, Vector3.one * Strength, 20, 90F, false);
+        }
     }
 }
