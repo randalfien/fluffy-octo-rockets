@@ -9,6 +9,7 @@ tags:
 //wait(9)
 wait(5)
 Hey good-looking, loving your tail!
+<<setactive CloudsStart true>>
 
 [[Super inappropriate.|Conversation21]]
 [[Thanks, not too shabby yourself.|Conversation22]]
@@ -27,7 +28,6 @@ I'm just glad I met you, flying looks like a lonely job.
 <<move Sky 10>>
 wait(1)
 
-<<setactive CloudsUp false>>
 [[Agree, unsurely$I guess. I'm eager to get to space, though. They say it's magical.|Conversation33]]
 [[Show no mercy$No reason to go around talking like that.|Conversation34]]
 
@@ -47,7 +47,6 @@ I hate smalltalk. Our lives are too short.
 So what's your calling?
 <<move Sky 10>>
 wait(2)
-<<setactive CloudsUp false>>
 [[Boast$I want people to stop in awe when they see me in the sky!|Conversation31]]
 [[Be modest$Well, you know... I guess it's just a job.|Conversation32]]
 
@@ -791,6 +790,7 @@ wait(2)
 $The vibrations!
 Dampeners on full power!
 ...
+<<setactive CloudsEnd true>>
 wait(2)
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
@@ -820,6 +820,7 @@ By the way, zero thanks for sharing the journey.
 $Ugh, likewise
 <<rotate Rocket1 -70>>
 <<rotate Rocket2 -70>>
+<<setactive CloudsEnd true>>
 wait(2)
 Focus now at least.
 $I know!
@@ -886,6 +887,7 @@ Defying fate.
 <<setactive ScreenShake true>>
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
+<<setactive CloudsEnd true>>
 wait(2)
 $Let the human-gods see we chose another path
 Destruction...
@@ -919,6 +921,7 @@ I like it. Defying fate.
 <<setactive ScreenShake true>>
 <<rotate Rocket1 -90>>
 <<rotate Rocket2 -90>>
+<<setactive CloudsEnd true>>
 wait(2)
 $Let the human-gods see we chose another path
 Destruction...
