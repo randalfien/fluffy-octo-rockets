@@ -19,16 +19,17 @@ public class SceneSwitcher : MonoBehaviour
         
         if (valueval == "happy")
         {
-            Invoke("SwitchHappy",5f);
+            Invoke("SwitchHappy",6f);
         }
         else
         {
-            Invoke("SwitchSad",5f); 
+            Invoke("SwitchSad",6f); 
         }
     }
 
 IEnumerator FadeTo(float aValue, float aTime)
      {
+         yield return new WaitForSeconds(0.8f);
          float alpha = gameObject.GetComponent<SpriteRenderer>().color.a;
          for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
          {
