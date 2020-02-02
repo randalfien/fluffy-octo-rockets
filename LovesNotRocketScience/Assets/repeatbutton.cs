@@ -9,7 +9,7 @@ public class repeatbutton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<SpriteRenderer>().DOFade(1, 3f).SetDelay(2);
+        GetComponent<SpriteRenderer>().DOFade(1, 3f).SetDelay(10);
     }
 
 
